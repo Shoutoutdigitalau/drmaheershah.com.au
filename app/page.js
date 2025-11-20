@@ -809,12 +809,12 @@ export default function Home() {
         <div className="max-w-[1440px] mx-auto">
           <div className="max-w-[744px] mx-auto text-center mb-[60px]">
             <div className="inline-flex px-4 py-2 mb-8 rounded-full bg-[rgba(240,240,240,0.1)]">
-              <span className="text-white text-sm font-medium">FOR PATIENTS</span>
+              <span className="card-tag">FOR PATIENTS</span>
             </div>
-            <h2 className="text-white text-[48px] font-medium leading-[56px] mb-4">
+            <h2 className="course-heading mb-4">
               Master the Skills That Will Define the Next Decade
             </h2>
-            <p className="text-white text-lg">
+            <p className="section-description-light">
               5 comprehensive courses taking you from digital novice to advanced practitioner. Lorem ipsum dolor sit amet consectetur.
             </p>
           </div>
