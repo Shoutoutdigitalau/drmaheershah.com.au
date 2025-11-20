@@ -1262,10 +1262,10 @@ export default function Home() {
           </svg>
 
           <div className="mb-[60px]">
-            <h2 className="text-[#15171F] text-[48px] font-medium leading-[56px] mb-4">
+            <h2 className="section-title mb-4">
               Trusted by Patients & Practitioners
             </h2>
-            <p className="text-[#15171F] text-lg max-w-[830px]">
+            <p className="section-description max-w-[830px]">
               Real feedback from our community. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus.
             </p>
           </div>
