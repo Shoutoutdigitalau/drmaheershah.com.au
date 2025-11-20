@@ -636,10 +636,10 @@ export default function Home() {
       <section className="py-[80px] md:py-[120px] lg:py-[160px] px-6 bg-[#F9F9F9]">
         <div className="max-w-[1236px] mx-auto">
           <div className="max-w-[720px] mx-auto text-center mb-[50px]">
-            <h2 className="text-[#15171F] text-[36px] md:text-[42px] lg:text-[48px] font-medium leading-[56px] mb-4">
+            <h2 className="section-title mb-4">
               Patient Services
             </h2>
-            <p className="text-[#15171F] text-lg">
+            <p className="section-description">
               Comprehensive care using the latest digital dentistry techniques. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus.
             </p>
           </div>
