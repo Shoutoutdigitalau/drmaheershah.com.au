@@ -1327,11 +1327,11 @@ export default function Home() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-[#15171F] text-xl font-medium">Dr. Jennifer L.</h4>
-                  <p className="text-[#15171F] text-sm">Sydney, Course Alumnus</p>
+                  <h4 className="card-title text-[#15171F]">Dr. Jennifer L.</h4>
+                  <p className="credentials-text">Sydney, Course Alumnus</p>
                 </div>
               </div>
-              <blockquote className="text-[#15171F] text-[32px] font-normal leading-[46px] mb-8">
+              <blockquote className="about-quote mb-8">
                 "These courses transformed my practice. Within 3 months of implementing the digital workflow, my efficiency increased by 40% and patient satisfaction soared."
               </blockquote>
               <div className="flex items-center gap-8">
