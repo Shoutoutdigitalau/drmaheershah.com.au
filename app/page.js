@@ -498,20 +498,20 @@ export default function Home() {
                     loading="lazy"
                   />
                   <div className="absolute inset-0 flex items-end justify-between p-[37px]">
-                    <span className="bg-[rgba(21,23,31,0.4)] text-white px-[14px] py-1 rounded-full text-xs font-medium">
+                    <span className="case-tag bg-[rgba(21,23,31,0.4)] px-[14px] py-1 rounded-full">
                       BEFORE
                     </span>
-                    <span className="bg-[rgba(21,23,31,0.4)] text-white px-[14px] py-1 rounded-full text-xs font-medium">
+                    <span className="case-tag bg-[rgba(21,23,31,0.4)] px-[14px] py-1 rounded-full">
                       AFTER
                     </span>
                   </div>
                 </div>
 
                 <div className="p-[37px] pt-[43px]">
-                  <blockquote className="text-[#15171F] text-sm mb-3">
+                  <blockquote className="testimonial-text mb-3">
                     "Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper aucibus."
                   </blockquote>
-                  <cite className="text-[rgba(21,23,31,0.46)] text-sm not-italic">Jane</cite>
+                  <cite className="testimonial-name not-italic">Jane</cite>
                 </div>
               </article>
             </div>
