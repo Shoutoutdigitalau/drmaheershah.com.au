@@ -903,9 +903,9 @@ export default function Home() {
                         <path d="M9 0C4.032 0 0 4.032 0 9s4.032 9 9 9 9-4.032 9-9-4.032-9-9-9zm0 16.2c-3.978 0-7.2-3.222-7.2-7.2S5.022 1.8 9 1.8s7.2 3.222 7.2 7.2-3.222 7.2-7.2 7.2z" fill="#F0F0F0"/>
                         <path d="M9.254 2.838l.17.157v5.763l3.384.004c.168 0 .285.021.44.166.099.148.093.28.07.454-.075.127-.145.189-.28.244l-.084.009h-3.7V3.282c.023-.159.09-.282.219-.384.183-.05.311-.046.477.028z" fill="#F0F0F0"/>
                       </svg>
-                      <span className="text-white text-base">8 modules, 16 hours</span>
+                      <span className="course-duration">8 modules, 16 hours</span>
                     </div>
-                    <p className="text-white text-lg">
+                    <p className="course-body">
                       Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.
                     </p>
                   </div>
@@ -916,23 +916,23 @@ export default function Home() {
                       <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                         <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
                       </svg>
-                      <span className="text-[#15171F] text-lg">From scan to final restoration</span>
+                      <span className="course-feature">From scan to final restoration</span>
                     </li>
                     <li className="flex items-center gap-3">
                       <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                         <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
                       </svg>
-                      <span className="text-[#15171F] text-lg">Printer setup & maintenance</span>
+                      <span className="course-feature">Printer setup & maintenance</span>
                     </li>
                     <li className="flex items-center gap-3">
                       <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                         <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
                       </svg>
-                      <span className="text-[#15171F] text-lg">Material selection</span>
+                      <span className="course-feature">Material selection</span>
                     </li>
                   </ul>
-                  <button className="px-[22px] py-3 rounded-full bg-[#00A1E0] text-white font-medium flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-colors">
-                    <span>Enroll Now</span>
+                  <button className="button bg-[#00A1E0] text-white flex items-center justify-center hover:bg-[#0090c9] transition-colors">
+                    <span className="button-text">Enroll Now</span>
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
                       <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
@@ -956,15 +956,15 @@ export default function Home() {
                     <div className="text-white text-[48px] font-semibold leading-[56px]">$899</div>
                   </div>
                   <div className="absolute bottom-0 left-[37px] right-[37px] mb-[-30px]">
-                    <h3 className="text-white text-[32px] font-medium leading-[42px] mb-1">Digital Workflow Integration</h3>
+                    <h3 className="course-title text-white mb-1">Digital Workflow Integration</h3>
                     <div className="flex items-center gap-2 mb-4">
                       <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9 0C4.032 0 0 4.032 0 9s4.032 9 9 9 9-4.032 9-9-4.032-9-9-9zm0 16.2c-3.978 0-7.2-3.222-7.2-7.2S5.022 1.8 9 1.8s7.2 3.222 7.2 7.2-3.222 7.2-7.2 7.2z" fill="#F0F0F0"/>
                         <path d="M9.254 2.838l.17.157v5.763l3.384.004c.168 0 .285.021.44.166.099.148.093.28.07.454-.075.127-.145.189-.28.244l-.084.009h-3.7V3.282c.023-.159.09-.282.219-.384.183-.05.311-.046.477.028z" fill="#F0F0F0"/>
                       </svg>
-                      <span className="text-white text-base">10 modules, 20 hours</span>
+                      <span className="course-duration">10 modules, 20 hours</span>
                     </div>
-                    <p className="text-white text-lg">
+                    <p className="course-body">
                       Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.
                     </p>
                   </div>
@@ -975,23 +975,23 @@ export default function Home() {
                       <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                         <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
                       </svg>
-                      <span className="text-[#15171F] text-lg">Systems and efficiency</span>
+                      <span className="course-feature">Systems and efficiency</span>
                     </li>
                     <li className="flex items-center gap-3">
                       <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                         <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
                       </svg>
-                      <span className="text-[#15171F] text-lg">Software mastery</span>
+                      <span className="course-feature">Software mastery</span>
                     </li>
                     <li className="flex items-center gap-3">
                       <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                         <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
                       </svg>
-                      <span className="text-[#15171F] text-lg">Team training</span>
+                      <span className="course-feature">Team training</span>
                     </li>
                   </ul>
-                  <button className="px-[22px] py-3 rounded-full bg-[#00A1E0] text-white font-medium flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-colors">
-                    <span>Enroll Now</span>
+                  <button className="button bg-[#00A1E0] text-white flex items-center justify-center hover:bg-[#0090c9] transition-colors">
+                    <span className="button-text">Enroll Now</span>
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
                       <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
@@ -1018,15 +1018,15 @@ export default function Home() {
                     <div className="text-white text-[48px] font-semibold leading-[56px]">$699</div>
                   </div>
                   <div className="absolute bottom-0 left-[37px] right-[37px] mb-[-30px]">
-                    <h3 className="text-white text-[32px] font-medium leading-[42px] mb-1">AI Tools for Dentists</h3>
+                    <h3 className="course-title text-white mb-1">AI Tools for Dentists</h3>
                     <div className="flex items-center gap-2 mb-4">
                       <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9 0C4.032 0 0 4.032 0 9s4.032 9 9 9 9-4.032 9-9-4.032-9-9-9zm0 16.2c-3.978 0-7.2-3.222-7.2-7.2S5.022 1.8 9 1.8s7.2 3.222 7.2 7.2-3.222 7.2-7.2 7.2z" fill="#F0F0F0"/>
                         <path d="M9.254 2.838l.17.157v5.763l3.384.004c.168 0 .285.021.44.166.099.148.093.28.07.454-.075.127-.145.189-.28.244l-.084.009h-3.7V3.282c.023-.159.09-.282.219-.384.183-.05.311-.046.477.028z" fill="#F0F0F0"/>
                       </svg>
-                      <span className="text-white text-base">6 modules, 12 hours</span>
+                      <span className="course-duration">6 modules, 12 hours</span>
                     </div>
-                    <p className="text-white text-lg">
+                    <p className="course-body">
                       Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.
                     </p>
                   </div>
@@ -1037,23 +1037,23 @@ export default function Home() {
                       <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                         <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
                       </svg>
-                      <span className="text-[#15171F] text-lg">AI-assisted diagnosis</span>
+                      <span className="course-feature">AI-assisted diagnosis</span>
                     </li>
                     <li className="flex items-center gap-3">
                       <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                         <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
                       </svg>
-                      <span className="text-[#15171F] text-lg">Treatment planning with AI</span>
+                      <span className="course-feature">Treatment planning with AI</span>
                     </li>
                     <li className="flex items-center gap-3">
                       <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                         <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
                       </svg>
-                      <span className="text-[#15171F] text-lg">Practice automation</span>
+                      <span className="course-feature">Practice automation</span>
                     </li>
                   </ul>
-                  <button className="px-[22px] py-3 rounded-full bg-[#00A1E0] text-white font-medium flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-colors">
-                    <span>Enroll Now</span>
+                  <button className="button bg-[#00A1E0] text-white flex items-center justify-center hover:bg-[#0090c9] transition-colors">
+                    <span className="button-text">Enroll Now</span>
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
                       <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
@@ -1077,15 +1077,15 @@ export default function Home() {
                     <div className="text-white text-[48px] font-semibold leading-[56px]">$1,299</div>
                   </div>
                   <div className="absolute bottom-0 left-[37px] right-[37px] mb-[-30px]">
-                    <h3 className="text-white text-[32px] font-medium leading-[42px] mb-1">Full-Mouth Digital Rehabilitation</h3>
+                    <h3 className="course-title text-white mb-1">Full-Mouth Digital Rehabilitation</h3>
                     <div className="flex items-center gap-2 mb-4">
                       <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9 0C4.032 0 0 4.032 0 9s4.032 9 9 9 9-4.032 9-9-4.032-9-9-9zm0 16.2c-3.978 0-7.2-3.222-7.2-7.2S5.022 1.8 9 1.8s7.2 3.222 7.2 7.2-3.222 7.2-7.2 7.2z" fill="#F0F0F0"/>
                         <path d="M9.254 2.838l.17.157v5.763l3.384.004c.168 0 .285.021.44.166.099.148.093.28.07.454-.075.127-.145.189-.28.244l-.084.009h-3.7V3.282c.023-.159.09-.282.219-.384.183-.05.311-.046.477.028z" fill="#F0F0F0"/>
                       </svg>
-                      <span className="text-white text-base">12 modules, 24 hours</span>
+                      <span className="course-duration">12 modules, 24 hours</span>
                     </div>
-                    <p className="text-white text-lg">
+                    <p className="course-body">
                       Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.
                     </p>
                   </div>
@@ -1096,23 +1096,23 @@ export default function Home() {
                       <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                         <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
                       </svg>
-                      <span className="text-[#15171F] text-lg">Advanced comprehensive care</span>
+                      <span className="course-feature">Advanced comprehensive care</span>
                     </li>
                     <li className="flex items-center gap-3">
                       <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                         <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
                       </svg>
-                      <span className="text-[#15171F] text-lg">Complex case planning</span>
+                      <span className="course-feature">Complex case planning</span>
                     </li>
                     <li className="flex items-center gap-3">
                       <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                         <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
                       </svg>
-                      <span className="text-[#15171F] text-lg">Multi-disciplinary integration</span>
+                      <span className="course-feature">Multi-disciplinary integration</span>
                     </li>
                   </ul>
-                  <button className="px-[22px] py-3 rounded-full bg-[#00A1E0] text-white font-medium flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-colors">
-                    <span>Enroll Now</span>
+                  <button className="button bg-[#00A1E0] text-white flex items-center justify-center hover:bg-[#0090c9] transition-colors">
+                    <span className="button-text">Enroll Now</span>
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
                       <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
