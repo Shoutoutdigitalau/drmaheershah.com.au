@@ -89,16 +89,16 @@ export default function Home() {
                 {/* Statistics */}
                 <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-8 md:gap-[40px] w-full lg:w-auto">
                   <div className="flex flex-col gap-[2px] text-center md:text-left">
-                    <div className="text-[#F0F0F0] text-[48px] md:text-[60px] font-normal leading-[52px] md:leading-[64px] tracking-[-2px]" style={{fontFamily: 'Poppins, -apple-system, Roboto, Helvetica, sans-serif'}}>14+</div>
-                    <div className="text-[rgba(240,240,240,0.9)] text-sm md:text-base" style={{fontFamily: 'Poppins, -apple-system, Roboto, Helvetica, sans-serif'}}>Years of Experience</div>
+                    <div className="stats-number">14+</div>
+                    <div className="stats-label">Years of Experience</div>
                   </div>
                   <div className="flex flex-col gap-[2px] text-center md:text-left">
-                    <div className="text-[#F0F0F0] text-[48px] md:text-[60px] font-normal leading-[52px] md:leading-[64px] tracking-[-2px]" style={{fontFamily: 'Poppins, -apple-system, Roboto, Helvetica, sans-serif'}}>80+</div>
-                    <div className="text-[rgba(240,240,240,0.9)] text-sm md:text-base" style={{fontFamily: 'Poppins, -apple-system, Roboto, Helvetica, sans-serif'}}>Certifications</div>
+                    <div className="stats-number">80+</div>
+                    <div className="stats-label">Certifications</div>
                   </div>
                   <div className="flex flex-col gap-[2px] text-center md:text-left">
-                    <div className="text-[#F0F0F0] text-[48px] md:text-[60px] font-normal leading-[52px] md:leading-[64px] tracking-[-2px]" style={{fontFamily: 'Poppins, -apple-system, Roboto, Helvetica, sans-serif'}}>500+</div>
-                    <div className="text-[rgba(240,240,240,0.9)] text-sm md:text-base" style={{fontFamily: 'Poppins, -apple-system, Roboto, Helvetica, sans-serif'}}>Patients Treated</div>
+                    <div className="stats-number">500+</div>
+                    <div className="stats-label">Patients Treated</div>
                   </div>
                 </div>
 
