@@ -13,6 +13,11 @@ const nextConfig = {
         hostname: 'cdn.builder.io',
         pathname: '/api/v1/image/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.figma.com',
+        pathname: '/api/mcp/asset/**',
+      },
     ],
   },
 };
