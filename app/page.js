@@ -1135,29 +1135,29 @@ export default function Home() {
               <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                 <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#F0F0F0" strokeWidth="1.2"/>
               </svg>
-              <span className="text-white text-xl">Practicing dentist, not just educator</span>
+              <span className="card-body">Practicing dentist, not just educator</span>
             </div>
             <div className="flex items-center gap-3">
               <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                 <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#F0F0F0" strokeWidth="1.2"/>
               </svg>
-              <span className="text-white text-xl">Integration roadmap, not just theory</span>
+              <span className="card-body">Integration roadmap, not just theory</span>
             </div>
             <div className="flex items-center gap-3">
               <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                 <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#F0F0F0" strokeWidth="1.2"/>
               </svg>
-              <span className="text-white text-xl">Hands-on digital workflow in real practice</span>
+              <span className="card-body">Hands-on digital workflow in real practice</span>
             </div>
             <div className="flex items-center gap-3">
               <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                 <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#F0F0F0" strokeWidth="1.2"/>
               </svg>
-              <span className="text-white text-xl">AHPRA-compliant continuing education</span>
+              <span className="card-body">AHPRA-compliant continuing education</span>
             </div>
           </div>
-          <button className="px-[22px] py-3 rounded-full bg-white text-[#15171F] font-medium flex items-center gap-3 hover:bg-gray-100 transition-colors">
-            <span>Enroll Now</span>
+          <button className="button bg-white text-[#15171F] flex items-center hover:bg-gray-100 transition-colors">
+            <span className="button-text">Enroll Now</span>
             <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
               <path d="M1 9L9 1M9 1H2M9 1V8" stroke="#00A1E0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
