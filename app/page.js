@@ -32,8 +32,8 @@ export default function Home() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 max-w-[1440px] mx-auto px-6 md:px-12 lg:px-[60px] pt-[80px] md:pt-[120px] lg:pt-[160px] pb-[40px]">
-          <div className="max-w-[720px]">
+        <div className="relative z-10 max-w-[1440px] mx-auto px-6 md:px-12 lg:px-[60px]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center min-h-[600px] py-[40px] md:py-[80px] lg:py-[120px]">
             <h1 className="text-white text-[42px] md:text-[56px] lg:text-[74px] font-medium leading-[1.08] mb-4">
               Where Traditional Dentistry Meets Digital Innovation
             </h1>
