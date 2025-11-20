@@ -462,16 +462,16 @@ export default function Home() {
                 </div>
 
                 <div className="p-[37px] pt-[43px]">
-                  <blockquote className="text-[#15171F] text-sm mb-3">
+                  <blockquote className="testimonial-text mb-3">
                     "Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper aucibus."
                   </blockquote>
-                  <cite className="text-[rgba(21,23,31,0.46)] text-sm not-italic">Jane</cite>
+                  <cite className="testimonial-name not-italic">Jane</cite>
                 </div>
               </article>
 
               <article className="flex-shrink-0 w-[90vw] max-w-[454px] rounded-[24px] overflow-hidden bg-white">
                 <div className="p-[36px] pb-6">
-                  <h3 className="text-[#15171F] text-xl font-medium mb-2">Dental Crown</h3>
+                  <h3 className="case-card-title text-[#15171F] mb-2">Dental Crown</h3>
                   <div className="flex items-center gap-2 text-[rgba(21,23,31,0.46)] text-sm mb-6">
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clipPath="url(#clip2)">
