@@ -48,7 +48,7 @@ export default function Home() {
         </header>
 
         {/* Hero Container - Two Column Grid */}
-        <div className="hero-container grid grid-cols-2 min-h-screen">
+        <div className="hero-container grid grid-cols-2 min-h-screen relative">
           {/* LEFT COLUMN - Gradient Background with Text */}
           <div className="hero-left relative flex flex-col justify-center px-[80px] py-[120px]" style={{background: "linear-gradient(135deg, #0082b3 0%, #124c69 100%)"}}>
             <div className="hero-content max-w-[600px]">
@@ -71,7 +71,7 @@ export default function Home() {
           </div>
 
           {/* RIGHT COLUMN - Hero Background Image */}
-          <div className="hero-right relative overflow-hidden" style={{backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F4180cf4ba9354e9e8b40c4dc6a5abfa9%2F3960a92c14444b9f8af3c93f8a78f540?format=webp&width=800')`, backgroundSize: "cover", backgroundPosition: "center"}}></div>
+          <div className="hero-right w-full h-full" style={{backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F4180cf4ba9354e9e8b40c4dc6a5abfa9%2F3960a92c14444b9f8af3c93f8a78f540?format=webp&width=800')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat"}}></div>
         </div>
 
         {/* STATS BAR - Overlay at Bottom */}
