@@ -838,15 +838,15 @@ export default function Home() {
                     <div className="text-white text-[48px] font-semibold leading-[56px]">$499</div>
                   </div>
                   <div className="absolute bottom-0 left-[37px] right-[37px] mb-[-30px]">
-                    <h3 className="text-white text-[32px] font-medium leading-[42px] mb-1">Biomimetic Basics</h3>
+                    <h3 className="course-title text-white mb-1">Biomimetic Basics</h3>
                     <div className="flex items-center gap-2 mb-4">
                       <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9 0C4.032 0 0 4.032 0 9s4.032 9 9 9 9-4.032 9-9-4.032-9-9-9zm0 16.2c-3.978 0-7.2-3.222-7.2-7.2S5.022 1.8 9 1.8s7.2 3.222 7.2 7.2-3.222 7.2-7.2 7.2z" fill="#F0F0F0"/>
                         <path d="M9.254 2.838l.17.157v5.763l3.384.004c.168 0 .285.021.44.166.099.148.093.28.07.454-.075.127-.145.189-.28.244l-.084.009h-3.7V3.282c.023-.159.09-.282.219-.384.183-.05.311-.046.477.028z" fill="#F0F0F0"/>
                       </svg>
-                      <span className="text-white text-base">6 modules, 12 hours</span>
+                      <span className="course-duration">6 modules, 12 hours</span>
                     </div>
-                    <p className="text-white text-lg">
+                    <p className="course-body">
                       Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.
                     </p>
                   </div>
