@@ -806,6 +806,730 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Courses Section - Master the Skills */}
+      <section className="py-[160px] px-[240px] bg-gradient-to-b from-[#15171F] via-[#124C69] to-[#124C69]">
+        <div className="max-w-[1440px] mx-auto">
+          <div className="max-w-[744px] mx-auto text-center mb-[60px]">
+            <div className="inline-flex px-4 py-2 mb-8 rounded-full bg-[rgba(240,240,240,0.1)]">
+              <span className="text-white text-sm font-medium">FOR PATIENTS</span>
+            </div>
+            <h2 className="text-white text-[48px] font-medium leading-[56px] mb-4">
+              Master the Skills That Will Define the Next Decade
+            </h2>
+            <p className="text-white text-lg">
+              5 comprehensive courses taking you from digital novice to advanced practitioner. Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+
+          <div className="space-y-[40px]">
+            {/* Course Row 1 */}
+            <div className="flex gap-[39px]">
+              {/* Course 1 */}
+              <article className="w-[454px] flex flex-col">
+                <div className="relative h-[439px] rounded-t-[24px] overflow-hidden">
+                  <Image
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/f8db2f44a174ac1c22ffd4ac65855256e88fec4e"
+                    alt="Biomimetic Basics Course"
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute top-12 left-[37px] flex items-center justify-between w-[380px]">
+                    <div className="w-14 h-14 rounded-[16px] bg-white flex items-center justify-center">
+                      <span className="text-[#124C69] text-[36px] font-semibold leading-5">1</span>
+                    </div>
+                    <div className="text-white text-[48px] font-semibold leading-[56px]">$499</div>
+                  </div>
+                  <div className="absolute bottom-0 left-[37px] right-[37px] mb-[-30px]">
+                    <h3 className="text-white text-[32px] font-medium leading-[42px] mb-1">Biomimetic Basics</h3>
+                    <div className="flex items-center gap-2 mb-4">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 0C4.032 0 0 4.032 0 9s4.032 9 9 9 9-4.032 9-9-4.032-9-9-9zm0 16.2c-3.978 0-7.2-3.222-7.2-7.2S5.022 1.8 9 1.8s7.2 3.222 7.2 7.2-3.222 7.2-7.2 7.2z" fill="#F0F0F0"/>
+                        <path d="M9.254 2.838l.17.157v5.763l3.384.004c.168 0 .285.021.44.166.099.148.093.28.07.454-.075.127-.145.189-.28.244l-.084.009h-3.7V3.282c.023-.159.09-.282.219-.384.183-.05.311-.046.477.028z" fill="#F0F0F0"/>
+                      </svg>
+                      <span className="text-white text-base">6 modules, 12 hours</span>
+                    </div>
+                    <p className="text-white text-lg">
+                      Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-white rounded-b-[24px] pt-[70px] px-[37px] pb-[45px]">
+                  <ul className="space-y-3 mb-10">
+                    <li className="flex items-center gap-3">
+                      <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                        <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
+                      </svg>
+                      <span className="text-[#15171F] text-lg">Foundation principles</span>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                        <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
+                      </svg>
+                      <span className="text-[#15171F] text-lg">Material science</span>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                        <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
+                      </svg>
+                      <span className="text-[#15171F] text-lg">Basic techniques</span>
+                    </li>
+                  </ul>
+                  <button className="px-[22px] py-3 rounded-full bg-[#00A1E0] text-white font-medium flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-colors">
+                    <span>Enroll Now</span>
+                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+                      <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </button>
+                </div>
+              </article>
+
+              {/* Course 2 */}
+              <article className="w-[454px] flex flex-col">
+                <div className="relative h-[439px] rounded-t-[24px] overflow-hidden">
+                  <Image
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/668e21e3c5cfaba9e77e7171c589901bee0089d7"
+                    alt="3D Printing Mastery Course"
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute top-12 left-[37px] flex items-center justify-between w-[379px]">
+                    <div className="w-14 h-14 rounded-[16px] bg-white flex items-center justify-center">
+                      <span className="text-[#124C69] text-[36px] font-semibold leading-5">2</span>
+                    </div>
+                    <div className="text-white text-[48px] font-semibold leading-[56px]">$699</div>
+                  </div>
+                  <div className="absolute bottom-0 left-[37px] right-[37px] mb-[-30px]">
+                    <h3 className="text-white text-[32px] font-medium leading-[42px] mb-1">3D Printing Mastery</h3>
+                    <div className="flex items-center gap-2 mb-4">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 0C4.032 0 0 4.032 0 9s4.032 9 9 9 9-4.032 9-9-4.032-9-9-9zm0 16.2c-3.978 0-7.2-3.222-7.2-7.2S5.022 1.8 9 1.8s7.2 3.222 7.2 7.2-3.222 7.2-7.2 7.2z" fill="#F0F0F0"/>
+                        <path d="M9.254 2.838l.17.157v5.763l3.384.004c.168 0 .285.021.44.166.099.148.093.28.07.454-.075.127-.145.189-.28.244l-.084.009h-3.7V3.282c.023-.159.09-.282.219-.384.183-.05.311-.046.477.028z" fill="#F0F0F0"/>
+                      </svg>
+                      <span className="text-white text-base">8 modules, 16 hours</span>
+                    </div>
+                    <p className="text-white text-lg">
+                      Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-white rounded-b-[24px] pt-[70px] px-[37px] pb-[45px]">
+                  <ul className="space-y-3 mb-10">
+                    <li className="flex items-center gap-3">
+                      <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                        <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
+                      </svg>
+                      <span className="text-[#15171F] text-lg">From scan to final restoration</span>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                        <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
+                      </svg>
+                      <span className="text-[#15171F] text-lg">Printer setup & maintenance</span>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                        <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
+                      </svg>
+                      <span className="text-[#15171F] text-lg">Material selection</span>
+                    </li>
+                  </ul>
+                  <button className="px-[22px] py-3 rounded-full bg-[#00A1E0] text-white font-medium flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-colors">
+                    <span>Enroll Now</span>
+                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+                      <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </button>
+                </div>
+              </article>
+
+              {/* Course 3 */}
+              <article className="w-[454px] flex flex-col">
+                <div className="relative h-[439px] rounded-t-[24px] overflow-hidden">
+                  <Image
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/5d255b2a7beb228bb02dc521ab9d7660a5889281"
+                    alt="Digital Workflow Integration Course"
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute top-12 left-[37px] flex items-center justify-between w-[379px]">
+                    <div className="w-14 h-14 rounded-[16px] bg-white flex items-center justify-center">
+                      <span className="text-[#124C69] text-[36px] font-semibold leading-5">3</span>
+                    </div>
+                    <div className="text-white text-[48px] font-semibold leading-[56px]">$899</div>
+                  </div>
+                  <div className="absolute bottom-0 left-[37px] right-[37px] mb-[-30px]">
+                    <h3 className="text-white text-[32px] font-medium leading-[42px] mb-1">Digital Workflow Integration</h3>
+                    <div className="flex items-center gap-2 mb-4">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 0C4.032 0 0 4.032 0 9s4.032 9 9 9 9-4.032 9-9-4.032-9-9-9zm0 16.2c-3.978 0-7.2-3.222-7.2-7.2S5.022 1.8 9 1.8s7.2 3.222 7.2 7.2-3.222 7.2-7.2 7.2z" fill="#F0F0F0"/>
+                        <path d="M9.254 2.838l.17.157v5.763l3.384.004c.168 0 .285.021.44.166.099.148.093.28.07.454-.075.127-.145.189-.28.244l-.084.009h-3.7V3.282c.023-.159.09-.282.219-.384.183-.05.311-.046.477.028z" fill="#F0F0F0"/>
+                      </svg>
+                      <span className="text-white text-base">10 modules, 20 hours</span>
+                    </div>
+                    <p className="text-white text-lg">
+                      Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-white rounded-b-[24px] pt-[70px] px-[37px] pb-[45px]">
+                  <ul className="space-y-3 mb-10">
+                    <li className="flex items-center gap-3">
+                      <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                        <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
+                      </svg>
+                      <span className="text-[#15171F] text-lg">Systems and efficiency</span>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                        <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
+                      </svg>
+                      <span className="text-[#15171F] text-lg">Software mastery</span>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                        <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
+                      </svg>
+                      <span className="text-[#15171F] text-lg">Team training</span>
+                    </li>
+                  </ul>
+                  <button className="px-[22px] py-3 rounded-full bg-[#00A1E0] text-white font-medium flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-colors">
+                    <span>Enroll Now</span>
+                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+                      <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </button>
+                </div>
+              </article>
+            </div>
+
+            {/* Course Row 2 */}
+            <div className="flex gap-[39px]">
+              {/* Course 4 */}
+              <article className="w-[454px] flex flex-col">
+                <div className="relative h-[439px] rounded-t-[24px] overflow-hidden">
+                  <Image
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/fac4af9367f58aa337f05d487a0278b6009ef7d3"
+                    alt="AI Tools for Dentists Course"
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute top-12 left-[37px] flex items-center justify-between w-[379px]">
+                    <div className="w-14 h-14 rounded-[16px] bg-white flex items-center justify-center">
+                      <span className="text-[#124C69] text-[36px] font-semibold leading-5">4</span>
+                    </div>
+                    <div className="text-white text-[48px] font-semibold leading-[56px]">$699</div>
+                  </div>
+                  <div className="absolute bottom-0 left-[37px] right-[37px] mb-[-30px]">
+                    <h3 className="text-white text-[32px] font-medium leading-[42px] mb-1">AI Tools for Dentists</h3>
+                    <div className="flex items-center gap-2 mb-4">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 0C4.032 0 0 4.032 0 9s4.032 9 9 9 9-4.032 9-9-4.032-9-9-9zm0 16.2c-3.978 0-7.2-3.222-7.2-7.2S5.022 1.8 9 1.8s7.2 3.222 7.2 7.2-3.222 7.2-7.2 7.2z" fill="#F0F0F0"/>
+                        <path d="M9.254 2.838l.17.157v5.763l3.384.004c.168 0 .285.021.44.166.099.148.093.28.07.454-.075.127-.145.189-.28.244l-.084.009h-3.7V3.282c.023-.159.09-.282.219-.384.183-.05.311-.046.477.028z" fill="#F0F0F0"/>
+                      </svg>
+                      <span className="text-white text-base">6 modules, 12 hours</span>
+                    </div>
+                    <p className="text-white text-lg">
+                      Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-white rounded-b-[24px] pt-[70px] px-[37px] pb-[45px]">
+                  <ul className="space-y-3 mb-10">
+                    <li className="flex items-center gap-3">
+                      <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                        <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
+                      </svg>
+                      <span className="text-[#15171F] text-lg">AI-assisted diagnosis</span>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                        <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
+                      </svg>
+                      <span className="text-[#15171F] text-lg">Treatment planning with AI</span>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                        <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
+                      </svg>
+                      <span className="text-[#15171F] text-lg">Practice automation</span>
+                    </li>
+                  </ul>
+                  <button className="px-[22px] py-3 rounded-full bg-[#00A1E0] text-white font-medium flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-colors">
+                    <span>Enroll Now</span>
+                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+                      <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </button>
+                </div>
+              </article>
+
+              {/* Course 5 */}
+              <article className="w-[454px] flex flex-col">
+                <div className="relative h-[439px] rounded-t-[24px] overflow-hidden">
+                  <Image
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/3e936dce116177b37d5f2947a542238cb8a71ed1"
+                    alt="Full-Mouth Digital Rehabilitation Course"
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute top-12 left-[37px] flex items-center justify-between w-[380px]">
+                    <div className="w-14 h-14 rounded-[16px] bg-white flex items-center justify-center">
+                      <span className="text-[#124C69] text-[36px] font-semibold leading-5">5</span>
+                    </div>
+                    <div className="text-white text-[48px] font-semibold leading-[56px]">$1,299</div>
+                  </div>
+                  <div className="absolute bottom-0 left-[37px] right-[37px] mb-[-30px]">
+                    <h3 className="text-white text-[32px] font-medium leading-[42px] mb-1">Full-Mouth Digital Rehabilitation</h3>
+                    <div className="flex items-center gap-2 mb-4">
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 0C4.032 0 0 4.032 0 9s4.032 9 9 9 9-4.032 9-9-4.032-9-9-9zm0 16.2c-3.978 0-7.2-3.222-7.2-7.2S5.022 1.8 9 1.8s7.2 3.222 7.2 7.2-3.222 7.2-7.2 7.2z" fill="#F0F0F0"/>
+                        <path d="M9.254 2.838l.17.157v5.763l3.384.004c.168 0 .285.021.44.166.099.148.093.28.07.454-.075.127-.145.189-.28.244l-.084.009h-3.7V3.282c.023-.159.09-.282.219-.384.183-.05.311-.046.477.028z" fill="#F0F0F0"/>
+                      </svg>
+                      <span className="text-white text-base">12 modules, 24 hours</span>
+                    </div>
+                    <p className="text-white text-lg">
+                      Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-white rounded-b-[24px] pt-[70px] px-[37px] pb-[45px]">
+                  <ul className="space-y-3 mb-10">
+                    <li className="flex items-center gap-3">
+                      <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                        <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
+                      </svg>
+                      <span className="text-[#15171F] text-lg">Advanced comprehensive care</span>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                        <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
+                      </svg>
+                      <span className="text-[#15171F] text-lg">Complex case planning</span>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                        <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#15171F" strokeWidth="1.2"/>
+                      </svg>
+                      <span className="text-[#15171F] text-lg">Multi-disciplinary integration</span>
+                    </li>
+                  </ul>
+                  <button className="px-[22px] py-3 rounded-full bg-[#00A1E0] text-white font-medium flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-colors">
+                    <span>Enroll Now</span>
+                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+                      <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Learn from Dr. Maheer - Mid CTA */}
+      <section className="relative px-[347px] py-[149px] min-h-[707px] bg-gradient-to-r from-[rgba(18,76,105,0.91)] via-[rgba(18,76,105,0.88)] to-[rgba(23,101,130,0.82)]" style={{backgroundImage: "url('https://api.builder.io/api/v1/image/assets/TEMP/66dc57df948a92cb0c8eef8eb864ccb3d56676a6')", backgroundSize: 'cover', backgroundPosition: 'center'}}>
+        <div className="max-w-[720px]">
+          <h2 className="text-white text-[64px] font-medium leading-[74px] mb-4">
+            Why Learn from<br />Dr. Maheer?
+          </h2>
+          <div className="space-y-3 mb-10">
+            <div className="flex items-center gap-3">
+              <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#F0F0F0" strokeWidth="1.2"/>
+              </svg>
+              <span className="text-white text-xl">Practicing dentist, not just educator</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#F0F0F0" strokeWidth="1.2"/>
+              </svg>
+              <span className="text-white text-xl">Integration roadmap, not just theory</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#F0F0F0" strokeWidth="1.2"/>
+              </svg>
+              <span className="text-white text-xl">Hands-on digital workflow in real practice</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#F0F0F0" strokeWidth="1.2"/>
+              </svg>
+              <span className="text-white text-xl">AHPRA-compliant continuing education</span>
+            </div>
+          </div>
+          <button className="px-[22px] py-3 rounded-full bg-white text-[#15171F] font-medium flex items-center gap-3 hover:bg-gray-100 transition-colors">
+            <span>Enroll Now</span>
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+              <path d="M1 9L9 1M9 1H2M9 1V8" stroke="#00A1E0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      {/* Dual CTA Boxes */}
+      <section className="px-[240px] py-20 bg-[#F0F0F0]">
+        <div className="max-w-[1440px] mx-auto flex gap-10">
+          {/* Ready to Experience Digital Dentistry */}
+          <div className="flex-1 rounded-[24px] p-[58px_47px] bg-gradient-to-br from-[#00A1E0] to-[#124C69] relative overflow-hidden" style={{backgroundImage: "url('https://api.builder.io/api/v1/image/assets/TEMP/153c5702b17033ec59303c39a2be636fe8939bf1')", backgroundSize: 'cover'}}>
+            <div className="relative z-10">
+              <h3 className="text-white text-[36px] font-medium leading-[48px] mb-4">
+                Ready to Experience<br />Digital Dentistry?
+              </h3>
+              <p className="text-white text-base leading-7 mb-[34px]">
+                Book your consultation and see what modern dentistry can do for your smile. Lorem ipsum dolor sit amet consectetur.
+              </p>
+              <div className="space-y-4 mb-10">
+                <input type="text" placeholder="Name" className="w-full px-[22px] py-4 rounded-xl bg-[rgba(18,76,105,0.1)] border border-[rgba(255,255,255,0.3)] text-white placeholder:text-[rgba(255,255,255,0.7)]" />
+                <input type="email" placeholder="Email" className="w-full px-[22px] py-4 rounded-xl bg-[rgba(18,76,105,0.1)] border border-[rgba(255,255,255,0.3)] text-white placeholder:text-[rgba(255,255,255,0.7)]" />
+                <input type="tel" placeholder="Phone" className="w-full px-[22px] py-4 rounded-xl bg-[rgba(18,76,105,0.1)] border border-[rgba(255,255,255,0.3)] text-white placeholder:text-[rgba(255,255,255,0.7)]" />
+                <input type="text" placeholder="Preferred Date" className="w-full px-[22px] py-4 rounded-xl bg-[rgba(18,76,105,0.1)] border border-[rgba(255,255,255,0.3)] text-white placeholder:text-[rgba(255,255,255,0.7)]" />
+              </div>
+              <button className="w-full px-[22px] py-3 rounded-full bg-white text-[#15171F] font-medium flex items-center justify-center gap-3 hover:bg-gray-100 transition-colors mb-5">
+                <span>Book My Consultation</span>
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+                  <path d="M1 9L9 1M9 1H2M9 1V8" stroke="#00A1E0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </button>
+              <p className="text-white text-sm text-center italic">We'll call you within 24 hours to confirm.</p>
+            </div>
+          </div>
+
+          {/* Start Your Digital Transformation Today */}
+          <div className="flex-1 rounded-[24px] p-[58px_46px] bg-gradient-to-br from-[#15171F] to-[#124C69] relative overflow-hidden" style={{backgroundImage: "url('https://api.builder.io/api/v1/image/assets/TEMP/5b8cf104e15b29e1f710c1846e9287ff65cc995d')", backgroundSize: 'cover'}}>
+            <div className="relative z-10">
+              <h3 className="text-white text-[36px] font-medium leading-[48px] mb-4">
+                Start Your Digital<br />Transformation Today
+              </h3>
+              <p className="text-white text-base leading-7 mb-[34px]">
+                Enroll in any course and get instant access to all materials. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat aucibus.
+              </p>
+              <div className="rounded-xl border border-[rgba(255,255,255,0.3)] bg-[rgba(0,161,224,0.1)] p-6 mb-10">
+                <ul className="space-y-3">
+                  <li className="flex items-center gap-3">
+                    <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                      <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#FFF" strokeWidth="1.2"/>
+                    </svg>
+                    <span className="text-white text-base">Instant Access</span>
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                      <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#FFF" strokeWidth="1.2"/>
+                    </svg>
+                    <span className="text-white text-base">Lifetime Updates</span>
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                      <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#FFF" strokeWidth="1.2"/>
+                    </svg>
+                    <span className="text-white text-base">Community Access</span>
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
+                      <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#FFF" strokeWidth="1.2"/>
+                    </svg>
+                    <span className="text-white text-base">CE Credits</span>
+                  </li>
+                </ul>
+              </div>
+              <button className="w-full px-[22px] py-3 rounded-full bg-white text-[#15171F] font-medium flex items-center justify-center gap-3 hover:bg-gray-100 transition-colors mb-5">
+                <span>View All Courses</span>
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+                  <path d="M1 9L9 1M9 1H2M9 1V8" stroke="#00A1E0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </button>
+              <button className="w-full px-[22px] py-3 rounded-full bg-[#00A1E0] text-white font-medium flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-colors mb-5">
+                <span>Download Free Course Guide (PDF)</span>
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+                  <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </button>
+              <p className="text-white text-sm text-center italic">30-day money-back guarantee.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials - Trusted by Patients & Practitioners */}
+      <section className="px-[240px] py-[120px] bg-[#F9F9F9]">
+        <div className="max-w-[1440px] mx-auto">
+          <svg width="52" height="43" viewBox="0 0 52 43" fill="none" className="mb-6">
+            <path d="M2.9 43C0.967 35.833 0 29.435 0 23.804C0 16.253 1.869 10.43 5.606 6.335C9.343 2.112 14.756 0 21.844 0v9.022c-3.351 0-5.8.96-7.346 2.88-1.418 1.792-2.127 4.607-2.127 8.447v4.031h10.439V43H2.9zm29.189 0c-1.804-6.655-2.706-13.054-2.706-19.196 0-7.551 1.804-13.374 5.413-17.469C38.533 2.112 43.946 0 51.034 0v9.022c-6.315 0-9.472 3.775-9.472 11.326v4.031H52V43H32.089z" fill="url(#paint0_linear)"/>
+            <defs>
+              <linearGradient id="paint0_linear" x1="60.45" y1="-5.827" x2="-7.63" y2="100.072" gradientUnits="userSpaceOnUse">
+                <stop stopColor="#00A1E0"/>
+                <stop offset="1" stopColor="#00587A"/>
+              </linearGradient>
+            </defs>
+          </svg>
+
+          <div className="mb-[60px]">
+            <h2 className="text-[#15171F] text-[48px] font-medium leading-[56px] mb-4">
+              Trusted by Patients & Practitioners
+            </h2>
+            <p className="text-[#15171F] text-lg max-w-[830px]">
+              Real feedback from our community. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus.
+            </p>
+          </div>
+
+          <div className="flex items-center justify-between mb-[60px]">
+            <div className="flex gap-5">
+              <button className="w-[60px] h-[60px] rounded-full bg-[#124C69] flex items-center justify-center hover:bg-[#0d3a52] transition-colors">
+                <svg width="28" height="29" viewBox="0 0 28 29" fill="none">
+                  <path d="M17 23.5L8 14.5L17 5.5" stroke="white" strokeOpacity="0.5" strokeWidth="1.667" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </button>
+              <button className="w-[60px] h-[60px] rounded-full bg-[#00A1E0] flex items-center justify-center hover:bg-[#0090c9] transition-colors">
+                <svg width="28" height="29" viewBox="0 0 28 29" fill="none">
+                  <path d="M10 23.5L19 14.5L10 5.5" stroke="white" strokeWidth="1.667" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 gap-10 mb-10">
+            {/* Testimonial 1 */}
+            <div className="rounded-[24px] bg-white p-12">
+              <div className="flex items-center gap-6 mb-8">
+                <div className="w-[55px] h-[55px] rounded-full bg-gradient-to-br from-[#00A1E0] to-[#00587A] flex items-center justify-center text-white">
+                  <svg width="30" height="30" viewBox="0 0 55 55" fill="none">
+                    <circle cx="27.5" cy="27.5" r="27.5" fill="url(#paint0_linear)"/>
+                    <path d="M39.072 44.286c-2.035.832-5.681 1.811-11.572 1.811s-9.537-.979-11.572-1.811c-.658-.27-1.21-.746-1.574-1.358-.363-.611-.517-1.324-.439-2.031.267-2.43 1.037-4.848 2.797-5.944 3.243-2.017 6.463-2.878 6.463-2.878.113-.353.241-1.521.308-2.717-.411-.426-.819-.872-1.247-1.294-.819-.803-.91-1.951-1.201-3.432-.536.152-.706-.103-.848-.32-.098-.149-.135-.327-.171-.5-.131-.624-.262-1.248-.393-1.872-.098-.469-.196-.95-.13-1.424.033-.224.112-.458.295-.591.183-.133.491-.1.584.107 0 0-.299-2.938-.299-2.691-.249-.277-.447-.88-.364-1.346.082-.467.229-.92.305-1.387.08-.513.072-1.043.219-1.541.208-.702.704-1.277 1.21-1.808.358-.375.728-.74 1.132-1.065.809-.65 1.773-1.139 2.805-1.255.331-.037.665-.035.998-.033l1.121.006 1.12-.006c.333-.002.667-.005.998.033 1.032.116 1.997.605 2.805 1.255.404.325.774.69 1.132 1.065.506.53 1.002 1.106 1.212 1.808.147.498.138 1.028.219 1.541.074.467.221.92.302 1.387.083.466-.114 1.069-.364 1.346 0-.247-.298 2.691-.298 2.691.092-.207.401-.24.584-.107.183.133.262.367.295.591.066.474-.032.955-.13 1.424-.131.624-.262 1.248-.393 1.872-.036.173-.073.351-.171.5-.142.217-.312.472-.848.32-.292 1.481-.383 2.629-1.201 3.432-.429.422-.836.868-1.247 1.294.067 1.196.194 2.364.308 2.717 0 0 3.22.861 6.463 2.878 1.76 1.096 2.53 3.514 2.797 5.944.079.707-.074 1.42-.437 2.032-.363.611-.915 1.088-1.573 1.358z" fill="#fff"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-[#15171F] text-xl font-medium">Michael R.</h4>
+                  <p className="text-[#15171F] text-sm">Biomimetic Restoration Patient</p>
+                </div>
+              </div>
+              <blockquote className="text-[#15171F] text-[32px] font-normal leading-[46px] mb-8">
+                "The biomimetic approach saved my tooth that other dentists wanted to extract. Dr. Maheer's expertise in digital dentistry is unmatched!"
+              </blockquote>
+              <div className="flex items-center gap-8">
+                <div className="h-px flex-1 bg-gradient-to-r from-[rgba(0,161,224,0.4)] to-[rgba(18,76,105,0.4)]"></div>
+                <svg width="40" height="33" viewBox="0 0 40 33" fill="none">
+                  <path d="M37.77 33c1.487-5.5 2.23-10.411 2.23-14.732 0-5.795-1.437-10.264-4.312-13.408C32.813 1.62 28.649 0 23.197 0v6.924c2.577 0 4.461.737 5.65 2.21 1.091 1.375 1.636 3.536 1.636 6.482v3.793h-8.03V33h15.316zm-22.454 0c1.388-5.107 2.082-10.018 2.082-14.732 0-5.795-1.388-10.264-4.164-13.408C10.36 1.62 6.196 0 .744 0v6.924c4.857 0 7.286 2.897 7.286 8.692v3.793H0V33h15.316z" fill="url(#paint0_linear)"/>
+                  <defs>
+                    <linearGradient id="paint0_linear" x1="-6.5" y1="-4.472" x2="45.697" y2="76.91" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#00A1E0"/>
+                      <stop offset="1" stopColor="#00587A"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+
+            {/* Testimonial 2 */}
+            <div className="rounded-[24px] bg-white p-12">
+              <div className="flex items-center gap-6 mb-8">
+                <div className="w-[55px] h-[55px] rounded-full bg-gradient-to-br from-[#00A1E0] to-[#00587A] flex items-center justify-center text-white">
+                  <svg width="30" height="30" viewBox="0 0 55 55" fill="none">
+                    <circle cx="27.5" cy="27.5" r="27.5" fill="url(#paint0_linear)"/>
+                    <path d="M39.072 44.286c-2.035.832-5.681 1.811-11.572 1.811s-9.537-.979-11.572-1.811c-.658-.27-1.21-.746-1.574-1.358-.363-.611-.517-1.324-.439-2.031.267-2.43 1.037-4.848 2.797-5.944 3.243-2.017 6.463-2.878 6.463-2.878.113-.353.241-1.521.308-2.717-.411-.426-.819-.872-1.247-1.294-.819-.803-.91-1.951-1.201-3.432-.536.152-.706-.103-.848-.32-.098-.149-.135-.327-.171-.5-.131-.624-.262-1.248-.393-1.872-.098-.469-.196-.95-.13-1.424.033-.224.112-.458.295-.591.183-.133.491-.1.584.107 0 0-.299-2.938-.299-2.691-.249-.277-.447-.88-.364-1.346.082-.467.229-.92.305-1.387.08-.513.072-1.043.219-1.541.208-.702.704-1.277 1.21-1.808.358-.375.728-.74 1.132-1.065.809-.65 1.773-1.139 2.805-1.255.331-.037.665-.035.998-.033l1.121.006 1.12-.006c.333-.002.667-.005.998.033 1.032.116 1.997.605 2.805 1.255.404.325.774.69 1.132 1.065.506.53 1.002 1.106 1.212 1.808.147.498.138 1.028.219 1.541.074.467.221.92.302 1.387.083.466-.114 1.069-.364 1.346 0-.247-.298 2.691-.298 2.691.092-.207.401-.24.584-.107.183.133.262.367.295.591.066.474-.032.955-.13 1.424-.131.624-.262 1.248-.393 1.872-.036.173-.073.351-.171.5-.142.217-.312.472-.848.32-.292 1.481-.383 2.629-1.201 3.432-.429.422-.836.868-1.247 1.294.067 1.196.194 2.364.308 2.717 0 0 3.22.861 6.463 2.878 1.76 1.096 2.53 3.514 2.797 5.944.079.707-.074 1.42-.437 2.032-.363.611-.915 1.088-1.573 1.358z" fill="#fff"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-[#15171F] text-xl font-medium">Dr. Jennifer L.</h4>
+                  <p className="text-[#15171F] text-sm">Sydney, Course Alumnus</p>
+                </div>
+              </div>
+              <blockquote className="text-[#15171F] text-[32px] font-normal leading-[46px] mb-8">
+                "These courses transformed my practice. Within 3 months of implementing the digital workflow, my efficiency increased by 40% and patient satisfaction soared."
+              </blockquote>
+              <div className="flex items-center gap-8">
+                <div className="h-px flex-1 bg-gradient-to-r from-[rgba(0,161,224,0.4)] to-[rgba(18,76,105,0.4)]"></div>
+                <svg width="40" height="33" viewBox="0 0 40 33" fill="none">
+                  <path d="M37.77 33c1.487-5.5 2.23-10.411 2.23-14.732 0-5.795-1.437-10.264-4.312-13.408C32.813 1.62 28.649 0 23.197 0v6.924c2.577 0 4.461.737 5.65 2.21 1.091 1.375 1.636 3.536 1.636 6.482v3.793h-8.03V33h15.316zm-22.454 0c1.388-5.107 2.082-10.018 2.082-14.732 0-5.795-1.388-10.264-4.164-13.408C10.36 1.62 6.196 0 .744 0v6.924c4.857 0 7.286 2.897 7.286 8.692v3.793H0V33h15.316z" fill="url(#paint0_linear)"/>
+                  <defs>
+                    <linearGradient id="paint0_linear" x1="-6.5" y1="-4.472" x2="45.697" y2="76.91" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#00A1E0"/>
+                      <stop offset="1" stopColor="#00587A"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          {/* Stats */}
+          <div className="flex items-center gap-10">
+            <div className="rounded-[24px] bg-gradient-to-br from-[#00A1E0] to-[#124C69] px-7 py-[42px] text-center flex-1">
+              <div className="text-white text-[60px] font-medium leading-[64px] tracking-[-2px] mb-0.5">500+</div>
+              <div className="text-[rgba(240,240,240,0.9)] text-base">Patients Treated</div>
+            </div>
+            <div className="rounded-[24px] bg-gradient-to-br from-[#00A1E0] to-[#124C69] px-7 py-[42px] text-center flex-1">
+              <div className="text-white text-[60px] font-medium leading-[64px] tracking-[-2px] mb-0.5">200+</div>
+              <div className="text-[rgba(240,240,240,0.9)] text-base">Dentist Trained</div>
+            </div>
+            <div className="rounded-[24px] bg-gradient-to-br from-[#00A1E0] to-[#124C69] px-7 py-[42px] text-center flex-1">
+              <div className="text-white text-[60px] font-medium leading-[64px] tracking-[-2px] mb-0.5">98%</div>
+              <div className="text-[rgba(240,240,240,0.9)] text-base">Patient Satisfaction</div>
+            </div>
+            <div className="rounded-[24px] bg-gradient-to-br from-[#00A1E0] to-[#124C69] px-7 py-[42px] text-center flex-1">
+              <div className="text-white text-[60px] font-medium leading-[64px] tracking-[-2px] mb-0.5">4.9/5</div>
+              <div className="text-[rgba(240,240,240,0.9)] text-base">Course Rating</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* What to Expect */}
+      <section className="px-[240px] py-[160px] bg-[#F0F0F0]">
+        <div className="max-w-[1440px] mx-auto">
+          <div className="max-w-[813px] mx-auto text-center mb-[60px]">
+            <h2 className="text-[#15171F] text-[48px] font-medium leading-[56px] mb-4">What to Expect</h2>
+            <p className="text-[#15171F] text-lg">
+              Clear pathways for both patients and dentists. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.
+            </p>
+          </div>
+
+          {/* For Patients Journey */}
+          <div className="mb-[130px]">
+            <div className="flex gap-[60px] mb-[60px]">
+              <div className="flex flex-col gap-10 w-[720px]">
+                <div className="grid grid-cols-2 gap-10">
+                  {/* Step 1 */}
+                  <div className="relative h-[432px] rounded-[24px] overflow-hidden">
+                    <Image src="https://api.builder.io/api/v1/image/assets/TEMP/7817c5ea52ae0fbb8894cc3845c60db90162abc4" alt="Initial Consultation" fill className="object-cover" />
+                    <div className="absolute top-[33px] left-8 right-8">
+                      <div className="w-[66px] h-[66px] rounded-[33px] bg-white flex items-center justify-center mb-[62px]">
+                        <span className="text-[#124C69] text-[40px] font-medium leading-[46px]">1</span>
+                      </div>
+                      <h3 className="text-white text-2xl font-medium leading-[30px] mb-4">Initial<br />Consultation</h3>
+                      <p className="text-white text-lg">Digital scans and comprehensive assessment (45 min). Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus.</p>
+                    </div>
+                  </div>
+
+                  {/* Step 2 */}
+                  <div className="relative h-[432px] rounded-[24px] overflow-hidden">
+                    <Image src="https://api.builder.io/api/v1/image/assets/TEMP/e32b42f884111eb28658e605f3cb61e44a0ca352" alt="Custom Treatment Plan" fill className="object-cover" />
+                    <div className="absolute top-[33px] left-8 right-8">
+                      <div className="w-[66px] h-[66px] rounded-[33px] bg-[#124C69] flex items-center justify-center mb-[62px]">
+                        <span className="text-white text-[40px] font-medium leading-[46px]">2</span>
+                      </div>
+                      <h3 className="text-[#15171F] text-2xl font-medium leading-[30px] mb-4">Custom<br />Treatment Plan</h3>
+                      <p className="text-[#15171F] text-lg">3D visualization of your future smile. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-2 gap-10">
+                  {/* Step 3 */}
+                  <div className="relative h-[432px] rounded-[24px] overflow-hidden">
+                    <Image src="https://api.builder.io/api/v1/image/assets/TEMP/e32b42f884111eb28658e605f3cb61e44a0ca352" alt="Precision Treatment" fill className="object-cover" />
+                    <div className="absolute top-[33px] left-8 right-8">
+                      <div className="w-[66px] h-[66px] rounded-[33px] bg-[#124C69] flex items-center justify-center mb-[62px]">
+                        <span className="text-white text-[40px] font-medium leading-[46px]">3</span>
+                      </div>
+                      <h3 className="text-[#15171F] text-2xl font-medium leading-[30px] mb-4">Precision<br />Treatment</h3>
+                      <p className="text-[#15171F] text-lg">Biomimetic techniques with digital accuracy. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
+                    </div>
+                  </div>
+
+                  {/* Step 4 */}
+                  <div className="relative h-[432px] rounded-[24px] overflow-hidden">
+                    <Image src="https://api.builder.io/api/v1/image/assets/TEMP/e32b42f884111eb28658e605f3cb61e44a0ca352" alt="Ongoing Care" fill className="object-cover" />
+                    <div className="absolute top-[33px] left-8 right-8">
+                      <div className="w-[66px] h-[66px] rounded-[33px] bg-[#124C69] flex items-center justify-center mb-[62px]">
+                        <span className="text-white text-[40px] font-medium leading-[46px]">4</span>
+                      </div>
+                      <h3 className="text-[#15171F] text-2xl font-medium leading-[30px] mb-4">Ongoing<br />Care</h3>
+                      <p className="text-[#15171F] text-lg">Holistic maintenance for lasting results. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="w-[660px]">
+                <h3 className="text-[#15171F] text-[32px] font-medium leading-[42px] mb-4">For Patients: Your Journey</h3>
+                <p className="text-[#15171F] text-lg mb-[60px]">Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.</p>
+                <div className="h-[732px] rounded-[30px] overflow-hidden">
+                  <Image src="https://api.builder.io/api/v1/image/assets/TEMP/76e98259281ed0b63657c98e0738d377b1510870" alt="Patient Journey" fill className="object-cover" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="h-px bg-gradient-to-r from-[rgba(0,161,224,0.4)] to-[rgba(18,76,105,0.4)] mb-[130px]"></div>
+
+          {/* For Dentists Journey */}
+          <div className="flex gap-[60px]">
+            <div className="w-[660px]">
+              <h3 className="text-[#15171F] text-[32px] font-medium leading-[42px] mb-4">For Dentists: Your Learning Path</h3>
+              <p className="text-[#15171F] text-lg mb-[60px]">Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.</p>
+              <div className="h-[732px] rounded-[30px] overflow-hidden relative">
+                <Image src="https://api.builder.io/api/v1/image/assets/TEMP/26206776a0b4aa0a70d456c8a926841447571d26" alt="Dentist Learning Path" fill className="object-cover" />
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-10 w-[720px]">
+              <div className="grid grid-cols-2 gap-10">
+                {/* Step 1 */}
+                <div className="relative h-[432px] rounded-[24px] overflow-hidden">
+                  <Image src="https://api.builder.io/api/v1/image/assets/TEMP/03d55f3879bb43ee8ccf6b5b66b91d836e7cf88e" alt="Enroll & Access" fill className="object-cover" />
+                  <div className="absolute top-[33px] left-8 right-8">
+                    <div className="w-[66px] h-[66px] rounded-[33px] bg-white flex items-center justify-center mb-[62px]">
+                      <span className="text-[#124C69] text-[40px] font-medium leading-[46px]">1</span>
+                    </div>
+                    <h3 className="text-white text-2xl font-medium leading-[30px] mb-4">Enroll &<br />Access</h3>
+                    <p className="text-white text-lg">Instant access to all course materials. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
+                  </div>
+                </div>
+
+                {/* Step 2 */}
+                <div className="relative h-[432px] rounded-[24px] overflow-hidden">
+                  <Image src="https://api.builder.io/api/v1/image/assets/TEMP/5537f32d971a7c8ff8bcdda5a2dc763027b21572" alt="Learn at Your Pace" fill className="object-cover" />
+                  <div className="absolute top-[33px] left-8 right-8">
+                    <div className="w-[66px] h-[66px] rounded-[33px] bg-[#00A1E0] flex items-center justify-center mb-[62px]">
+                      <span className="text-white text-[40px] font-medium leading-[46px]">2</span>
+                    </div>
+                    <h3 className="text-[#15171F] text-2xl font-medium leading-[30px] mb-4">Learn at<br />Your Pace</h3>
+                    <p className="text-[#15171F] text-lg">Video lectures, PDFs, case studies. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2 gap-10">
+                {/* Step 3 */}
+                <div className="relative h-[432px] rounded-[24px] overflow-hidden">
+                  <Image src="https://api.builder.io/api/v1/image/assets/TEMP/5537f32d971a7c8ff8bcdda5a2dc763027b21572" alt="Implement in Practice" fill className="object-cover" />
+                  <div className="absolute top-[33px] left-8 right-8">
+                    <div className="w-[66px] h-[66px] rounded-[33px] bg-[#00A1E0] flex items-center justify-center mb-[62px]">
+                      <span className="text-white text-[40px] font-medium leading-[46px]">3</span>
+                    </div>
+                    <h3 className="text-[#15171F] text-2xl font-medium leading-[30px] mb-4">Implement<br />in Practice</h3>
+                    <p className="text-[#15171F] text-lg">Actionable protocols you can use tomorrow. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
+                  </div>
+                </div>
+
+                {/* Step 4 */}
+                <div className="relative h-[432px] rounded-[24px] overflow-hidden">
+                  <Image src="https://api.builder.io/api/v1/image/assets/TEMP/5537f32d971a7c8ff8bcdda5a2dc763027b21572" alt="Community Support" fill className="object-cover" />
+                  <div className="absolute top-[33px] left-8 right-8">
+                    <div className="w-[66px] h-[66px] rounded-[33px] bg-[#00A1E0] flex items-center justify-center mb-[62px]">
+                      <span className="text-white text-[40px] font-medium leading-[46px]">4</span>
+                    </div>
+                    <h3 className="text-[#15171F] text-2xl font-medium leading-[30px] mb-4">Community<br />Support</h3>
+                    <p className="text-[#15171F] text-lg">Join the digital dentistry network. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="relative">
+        <Image
+          src="https://api.builder.io/api/v1/image/assets/TEMP/67c73bb823ea84e585a74b066c788162bdf1252f"
+          alt="Footer"
+          width={1920}
+          height={647}
+          className="w-full h-auto"
+        />
+      </footer>
     </div>
   );
 }
