@@ -359,15 +359,15 @@ export default function Home() {
         <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-[60px]">
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 mb-[60px]">
             <div className="max-w-[720px]">
-              <h2 className="text-white text-[36px] md:text-[42px] lg:text-[48px] font-medium leading-[56px] mb-4">
+              <h2 className="section-title-light mb-4">
                 See the Transformation
               </h2>
-              <p className="text-white text-lg">
+              <p className="section-description-light">
                 Real patients, real results using digital dentistry. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper aucibus.
               </p>
             </div>
-            <button className="bg-white text-[#15171F] px-[22px] py-3 rounded-full inline-flex items-center gap-3 hover:bg-[#e0e0e0] transition-colors font-medium focus:outline-none focus:ring-2 focus:ring-white/50 whitespace-nowrap">
-              <span>View Full Case Gallery</span>
+            <button className="button bg-white text-[#15171F] hover:bg-[#e0e0e0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 whitespace-nowrap">
+              <span className="button-text">View Full Case Gallery</span>
               <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
