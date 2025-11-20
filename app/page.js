@@ -1393,8 +1393,8 @@ export default function Home() {
                       <div className="w-[66px] h-[66px] rounded-[33px] bg-white flex items-center justify-center mb-[62px]">
                         <span className="text-[#124C69] text-[40px] font-medium leading-[46px]">1</span>
                       </div>
-                      <h3 className="text-white text-2xl font-medium leading-[30px] mb-4">Initial<br />Consultation</h3>
-                      <p className="text-white text-lg">Digital scans and comprehensive assessment (45 min). Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus.</p>
+                      <h3 className="case-card-title text-white mb-4">Initial<br />Consultation</h3>
+                      <p className="case-body text-white">Digital scans and comprehensive assessment (45 min). Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus.</p>
                     </div>
                   </div>
 
@@ -1405,8 +1405,8 @@ export default function Home() {
                       <div className="w-[66px] h-[66px] rounded-[33px] bg-[#124C69] flex items-center justify-center mb-[62px]">
                         <span className="text-white text-[40px] font-medium leading-[46px]">2</span>
                       </div>
-                      <h3 className="text-[#15171F] text-2xl font-medium leading-[30px] mb-4">Custom<br />Treatment Plan</h3>
-                      <p className="text-[#15171F] text-lg">3D visualization of your future smile. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
+                      <h3 className="case-card-title text-[#15171F] mb-4">Custom<br />Treatment Plan</h3>
+                      <p className="case-body text-[#15171F]">3D visualization of your future smile. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
                     </div>
                   </div>
                 </div>
@@ -1419,8 +1419,8 @@ export default function Home() {
                       <div className="w-[66px] h-[66px] rounded-[33px] bg-[#124C69] flex items-center justify-center mb-[62px]">
                         <span className="text-white text-[40px] font-medium leading-[46px]">3</span>
                       </div>
-                      <h3 className="text-[#15171F] text-2xl font-medium leading-[30px] mb-4">Precision<br />Treatment</h3>
-                      <p className="text-[#15171F] text-lg">Biomimetic techniques with digital accuracy. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
+                      <h3 className="case-card-title text-[#15171F] mb-4">Precision<br />Treatment</h3>
+                      <p className="case-body text-[#15171F]">Biomimetic techniques with digital accuracy. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
                     </div>
                   </div>
 
@@ -1431,16 +1431,16 @@ export default function Home() {
                       <div className="w-[66px] h-[66px] rounded-[33px] bg-[#124C69] flex items-center justify-center mb-[62px]">
                         <span className="text-white text-[40px] font-medium leading-[46px]">4</span>
                       </div>
-                      <h3 className="text-[#15171F] text-2xl font-medium leading-[30px] mb-4">Ongoing<br />Care</h3>
-                      <p className="text-[#15171F] text-lg">Holistic maintenance for lasting results. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
+                      <h3 className="case-card-title text-[#15171F] mb-4">Ongoing<br />Care</h3>
+                      <p className="case-body text-[#15171F]">Holistic maintenance for lasting results. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div className="w-[660px]">
-                <h3 className="text-[#15171F] text-[32px] font-medium leading-[42px] mb-4">For Patients: Your Journey</h3>
-                <p className="text-[#15171F] text-lg mb-[60px]">Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.</p>
+                <h3 className="card-title text-[#15171F] mb-4">For Patients: Your Journey</h3>
+                <p className="service-description mb-[60px]">Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.</p>
                 <div className="h-[732px] rounded-[30px] overflow-hidden">
                   <Image src="https://api.builder.io/api/v1/image/assets/TEMP/76e98259281ed0b63657c98e0738d377b1510870" alt="Patient Journey" fill className="object-cover" />
                 </div>
@@ -1453,8 +1453,8 @@ export default function Home() {
           {/* For Dentists Journey */}
           <div className="flex gap-[60px]">
             <div className="w-[660px]">
-              <h3 className="text-[#15171F] text-[32px] font-medium leading-[42px] mb-4">For Dentists: Your Learning Path</h3>
-              <p className="text-[#15171F] text-lg mb-[60px]">Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.</p>
+              <h3 className="card-title text-[#15171F] mb-4">For Dentists: Your Learning Path</h3>
+              <p className="service-description mb-[60px]">Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.</p>
               <div className="h-[732px] rounded-[30px] overflow-hidden relative">
                 <Image src="https://api.builder.io/api/v1/image/assets/TEMP/26206776a0b4aa0a70d456c8a926841447571d26" alt="Dentist Learning Path" fill className="object-cover" />
               </div>
@@ -1469,8 +1469,8 @@ export default function Home() {
                     <div className="w-[66px] h-[66px] rounded-[33px] bg-white flex items-center justify-center mb-[62px]">
                       <span className="text-[#124C69] text-[40px] font-medium leading-[46px]">1</span>
                     </div>
-                    <h3 className="text-white text-2xl font-medium leading-[30px] mb-4">Enroll &<br />Access</h3>
-                    <p className="text-white text-lg">Instant access to all course materials. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
+                    <h3 className="case-card-title text-white mb-4">Enroll &<br />Access</h3>
+                    <p className="case-body text-white">Instant access to all course materials. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
                   </div>
                 </div>
 
@@ -1481,8 +1481,8 @@ export default function Home() {
                     <div className="w-[66px] h-[66px] rounded-[33px] bg-[#00A1E0] flex items-center justify-center mb-[62px]">
                       <span className="text-white text-[40px] font-medium leading-[46px]">2</span>
                     </div>
-                    <h3 className="text-[#15171F] text-2xl font-medium leading-[30px] mb-4">Learn at<br />Your Pace</h3>
-                    <p className="text-[#15171F] text-lg">Video lectures, PDFs, case studies. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
+                    <h3 className="case-card-title text-[#15171F] mb-4">Learn at<br />Your Pace</h3>
+                    <p className="case-body text-[#15171F]">Video lectures, PDFs, case studies. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
                   </div>
                 </div>
               </div>
@@ -1495,8 +1495,8 @@ export default function Home() {
                     <div className="w-[66px] h-[66px] rounded-[33px] bg-[#00A1E0] flex items-center justify-center mb-[62px]">
                       <span className="text-white text-[40px] font-medium leading-[46px]">3</span>
                     </div>
-                    <h3 className="text-[#15171F] text-2xl font-medium leading-[30px] mb-4">Implement<br />in Practice</h3>
-                    <p className="text-[#15171F] text-lg">Actionable protocols you can use tomorrow. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
+                    <h3 className="case-card-title text-[#15171F] mb-4">Implement<br />in Practice</h3>
+                    <p className="case-body text-[#15171F]">Actionable protocols you can use tomorrow. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
                   </div>
                 </div>
 
@@ -1507,8 +1507,8 @@ export default function Home() {
                     <div className="w-[66px] h-[66px] rounded-[33px] bg-[#00A1E0] flex items-center justify-center mb-[62px]">
                       <span className="text-white text-[40px] font-medium leading-[46px]">4</span>
                     </div>
-                    <h3 className="text-[#15171F] text-2xl font-medium leading-[30px] mb-4">Community<br />Support</h3>
-                    <p className="text-[#15171F] text-lg">Join the digital dentistry network. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
+                    <h3 className="case-card-title text-[#15171F] mb-4">Community<br />Support</h3>
+                    <p className="case-body text-[#15171F]">Join the digital dentistry network. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus. Et potenti tristique in feugiat.</p>
                   </div>
                 </div>
               </div>
