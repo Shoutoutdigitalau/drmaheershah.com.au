@@ -4,34 +4,14 @@ export default function Home() {
   return (
     <div className="bg-[#F0F0F0] overflow-hidden">
       {/* Hero Section */}
-      <section className="relative min-h-screen bg-[#124C69]">
-        {/* Background Image */}
-        <div className="absolute inset-0">
-          <Image
-            src="https://api.builder.io/api/v1/image/assets/TEMP/1e46a09a1790c5536fe322d80fc2e4f1774cdadc?width=3840"
-            alt=""
-            fill
-            priority
-            className="object-cover opacity-40"
-            sizes="100vw"
-          />
-        </div>
-
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#124C69]/90 via-[#0a3147]/85 to-[#00a1e0]/80"></div>
-
+      <section className="relative bg-gradient-to-r from-[#1a4f6b] to-[#124C69]">
         {/* Navigation Header */}
         <div className="relative z-20 pt-10">
           <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-[60px]">
             <header className="flex flex-wrap items-center justify-between gap-6">
-              <Image
-                src="https://api.builder.io/api/v1/image/assets/d6129596c37d401a838963aa7ace07b6/be2ccac0d784e68629aded2f5b73b64495992645"
-                alt="Dr Maheer Shah Logo"
-                width={297}
-                height={28}
-                className="h-7 w-auto"
-                priority
-              />
+              <div className="text-white font-bold text-[20px] tracking-wide">
+                DREAMHERSHAH
+              </div>
 
               <nav className="hidden lg:flex items-center gap-10 text-white font-medium flex-1 ml-[135px]">
                 <a href="#about" className="hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1">About Us</a>
