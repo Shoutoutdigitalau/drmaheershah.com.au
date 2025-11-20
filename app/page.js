@@ -1171,10 +1171,10 @@ export default function Home() {
           {/* Ready to Experience Digital Dentistry */}
           <div className="flex-1 rounded-[24px] p-[58px_47px] bg-gradient-to-br from-[#00A1E0] to-[#124C69] relative overflow-hidden" style={{backgroundImage: "url('https://api.builder.io/api/v1/image/assets/TEMP/153c5702b17033ec59303c39a2be636fe8939bf1')", backgroundSize: 'cover'}}>
             <div className="relative z-10">
-              <h3 className="text-white text-[36px] font-medium leading-[48px] mb-4">
+              <h3 className="card-headline mb-4">
                 Ready to Experience<br />Digital Dentistry?
               </h3>
-              <p className="text-white text-base leading-7 mb-[34px]">
+              <p className="card-body mb-[34px]">
                 Book your consultation and see what modern dentistry can do for your smile. Lorem ipsum dolor sit amet consectetur.
               </p>
               <div className="space-y-4 mb-10">
