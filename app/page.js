@@ -4,121 +4,129 @@ export default function Home() {
   return (
     <div className="bg-[#F0F0F0] overflow-hidden">
       {/* Hero Section */}
-      <section className="relative min-h-screen grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
-        {/* Right Column - Hero Background Images */}
-        <div className="absolute inset-0 lg:relative lg:col-start-2 lg:order-2">
-          <Image
-            src="https://www.figma.com/api/mcp/asset/ad3df85e-872f-4aef-9b9b-da65dd5d4a02"
-            alt="Dental clinic environment"
-            fill
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-[rgba(0,161,224,0.85)] via-[rgba(18,76,105,0.8)] to-[rgba(10,49,71,0.85)]"></div>
-        </div>
+      <section className="hero-section relative min-h-screen overflow-hidden">
+        {/* Header - Single horizontal row */}
+        <header className="hero-header absolute top-0 left-0 right-0 z-100 flex justify-between items-center px-[240px] py-[40px]">
+          {/* Logo - Left */}
+          <div className="logo-wrapper flex-shrink-0">
+            <Image
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/8a3c1bc0a5e74e5c9e1d8f2c3a4b5c6d"
+              alt="Dr Maheer Shah Logo"
+              width={180}
+              height={32}
+              className="h-8 w-auto"
+              priority
+            />
+          </div>
 
-        {/* Left Column - Content with Overlay */}
-        <div className="relative z-10 lg:col-start-1 lg:order-1 flex flex-col">
-          {/* Navigation Header */}
-          <div className="relative z-20 pt-6 md:pt-10">
-            <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-[60px] w-full">
-              <header className="flex flex-wrap items-center justify-between gap-6">
-                <Image
-                  src="https://www.figma.com/api/mcp/asset/ad3df85e-872f-4aef-9b9b-da65dd5d4a02"
-                  alt="Dr Maheer Shah Logo"
-                  width={180}
-                  height={32}
-                  className="h-8 w-auto"
-                  priority
-                />
+          {/* Navigation Menu - Center */}
+          <nav className="nav-menu flex gap-[40px] flex-1 justify-center">
+            <a href="#about" className="nav-link text-white font-medium text-sm hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1">
+              About Us
+            </a>
+            <a href="#services" className="nav-link text-white font-medium text-sm hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1">
+              Patient Services
+            </a>
+            <a href="#gallery" className="nav-link text-white font-medium text-sm hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1">
+              Case Gallery
+            </a>
+            <a href="#dentists" className="nav-link text-white font-medium text-sm hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1">
+              For Dentists
+            </a>
+            <a href="#contact" className="nav-link text-white font-medium text-sm hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1">
+              Contact
+            </a>
+          </nav>
 
-                <nav className="hidden lg:flex items-center gap-8 text-white font-medium flex-1 ml-[100px]">
-                  <a href="#about" className="hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1 text-sm">About Us</a>
-                  <a href="#services" className="hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1 text-sm">Patient Services</a>
-                  <a href="#gallery" className="hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1 text-sm">Case Gallery</a>
-                  <a href="#dentists" className="hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1 text-sm">For Dentists</a>
-                  <a href="#contact" className="hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1 text-sm">Contact Us</a>
-                </nav>
+          {/* CTA Button - Right */}
+          <button className="cta-button bg-[#00A1E0] text-white px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#0090c9] transition-all hover:shadow-lg font-medium focus:outline-none focus:ring-2 focus:ring-white/50 text-sm whitespace-nowrap flex-shrink-0">
+            <span>Book a Consultation</span>
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </button>
+        </header>
 
-                <button className="bg-[#00A1E0] text-white px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#0090c9] transition-all hover:shadow-lg font-medium focus:outline-none focus:ring-2 focus:ring-white/50 text-sm whitespace-nowrap">
+        {/* Hero Container - Two Column Grid */}
+        <div className="hero-container grid grid-cols-2 min-h-screen">
+          {/* LEFT COLUMN - Gradient Background with Text */}
+          <div className="hero-left relative bg-gradient-to-br from-[rgba(0,161,224,0.9)] via-[rgba(18,76,105,0.9)] to-[rgba(10,49,71,0.9)] flex flex-col justify-center px-[60px] py-[120px]">
+            <div className="hero-content max-w-[600px]">
+              <h1 className="hero-title text-white text-[74px] font-medium leading-[1.08] mb-6">
+                Where Traditional Dentistry Meets Digital Innovation
+              </h1>
+              <p className="hero-description text-[rgba(240,240,240,0.95)] text-[18px] leading-relaxed mb-12">
+                Expert care for patients seeking the future of dentistry | Advanced training for practitioners mastering digital workflows.
+              </p>
+
+              <div className="hero-buttons flex flex-col sm:flex-row gap-6">
+                <button className="primary-cta bg-[#00A1E0] text-white px-8 py-4 rounded-full inline-flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-all hover:shadow-lg font-medium focus:outline-none focus:ring-2 focus:ring-white/50">
                   <span>Book a Consultation</span>
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </button>
-              </header>
-            </div>
-          </div>
-
-          {/* Hero Content */}
-          <div className="flex-1 flex items-center relative z-10">
-            <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-[60px] w-full py-[40px] md:py-[80px] lg:py-0">
-              <div className="max-w-[600px]">
-                <h1 className="text-white text-[48px] md:text-[64px] lg:text-[74px] font-medium leading-[1.08] mb-6">
-                  Where Traditional Dentistry Meets Digital Innovation
-                </h1>
-                <p className="text-[rgba(240,240,240,0.95)] text-lg md:text-[18px] leading-relaxed mb-12">
-                  Expert care for patients seeking the future of dentistry | Advanced training for practitioners mastering digital workflows.
-                </p>
-
-                <div className="flex flex-col sm:flex-row gap-6">
-                  <button className="bg-[#00A1E0] text-white px-8 py-4 rounded-full inline-flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-all hover:shadow-lg font-medium focus:outline-none focus:ring-2 focus:ring-white/50">
-                    <span>Book a Consultation</span>
-                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </button>
-                  <button className="bg-white text-[#15171F] px-8 py-4 rounded-full inline-flex items-center justify-center gap-3 hover:bg-[#f5f5f5] transition-all hover:shadow-lg font-medium focus:outline-none focus:ring-2 focus:ring-[#00A1E0]/50">
-                    <span>Explore Courses</span>
-                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </button>
-                </div>
+                <button className="secondary-cta bg-white text-[#15171F] px-8 py-4 rounded-full inline-flex items-center justify-center gap-3 hover:bg-[#f5f5f5] transition-all hover:shadow-lg font-medium focus:outline-none focus:ring-2 focus:ring-[#00A1E0]/50">
+                  <span>Explore Courses</span>
+                  <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </button>
               </div>
             </div>
           </div>
 
-          {/* Stats Bar Overlay */}
-          <div className="relative z-10 bg-[rgba(21,23,31,0.5)] backdrop-blur-sm border-t border-[rgba(240,240,240,0.1)]">
-            <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-[60px] py-8 md:py-10 w-full">
-              <div className="flex flex-wrap items-center justify-between gap-8">
-                <div className="flex flex-wrap gap-8 md:gap-16">
-                  <div>
-                    <div className="text-white text-[40px] md:text-[48px] leading-tight tracking-[-2px] font-normal">14+</div>
-                    <div className="text-[rgba(240,240,240,0.85)] text-sm md:text-base">Years of Experience</div>
-                  </div>
-                  <div>
-                    <div className="text-white text-[40px] md:text-[48px] leading-tight tracking-[-2px] font-normal">80+</div>
-                    <div className="text-[rgba(240,240,240,0.85)] text-sm md:text-base">Certifications</div>
-                  </div>
-                  <div>
-                    <div className="text-white text-[40px] md:text-[48px] leading-tight tracking-[-2px] font-normal">500+</div>
-                    <div className="text-[rgba(240,240,240,0.85)] text-sm md:text-base">Patients Treated</div>
-                  </div>
-                </div>
+          {/* RIGHT COLUMN - Hero Background Image */}
+          <div className="hero-right relative overflow-hidden">
+            <Image
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/hero-bg-image"
+              alt="Dr. Maheer Shah in clinic environment"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+        </div>
 
-                <div className="flex gap-4">
-                  <a href="#" aria-label="LinkedIn" className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-[rgba(240,240,240,0.1)] border border-[rgba(240,240,240,0.2)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
-                    <svg width="20" height="20" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M20.6666 10C22.7221 10 24.6933 10.7902 26.1467 12.1967C27.6001 13.6032 28.4166 15.5109 28.4166 17.5V26.25H23.25V17.5C23.25 16.837 22.9778 16.2011 22.4933 15.7322C22.0088 15.2634 21.3518 15 20.6666 15C19.9815 15 19.3244 15.2634 18.8399 15.7322C18.3555 16.2011 18.0833 16.837 18.0833 17.5V26.25H12.9166V17.5C12.9166 15.5109 13.7331 13.6032 15.1865 12.1967C16.64 10.7902 18.6112 10 20.6666 10Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M7.75004 11.25H2.58337V26.25H7.75004V11.25Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M5.16671 7.5C6.59344 7.5 7.75004 6.38071 7.75004 5C7.75004 3.61929 6.59344 2.5 5.16671 2.5C3.73997 2.5 2.58337 3.61929 2.58337 5C2.58337 6.38071 3.73997 7.5 5.16671 7.5Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </a>
-                  <a href="#" aria-label="Instagram" className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-[rgba(240,240,240,0.1)] border border-[rgba(240,240,240,0.2)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
-                    <svg width="20" height="20" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M21.9584 2.5H9.04171C5.47487 2.5 2.58337 5.29822 2.58337 8.75V21.25C2.58337 24.7018 5.47487 27.5 9.04171 27.5H21.9584C25.5252 27.5 28.4167 24.7018 28.4167 21.25V8.75C28.4167 5.29822 25.5252 2.5 21.9584 2.5Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M20.6666 14.2119C20.826 15.2522 20.6424 16.3147 20.1419 17.2482C19.6414 18.1817 18.8494 18.9387 17.8787 19.4115C16.908 19.8843 15.8079 20.0489 14.735 19.8818C13.6621 19.7147 12.6709 19.2245 11.9024 18.4809C11.134 17.7372 10.6274 16.778 10.4548 15.7397C10.2821 14.7013 10.4522 13.6368 10.9408 12.6974C11.4294 11.758 12.2116 10.9916 13.1762 10.5072C14.1408 10.0228 15.2387 9.84514 16.3137 9.9994C17.4102 10.1568 18.4254 10.6512 19.2092 11.4098C19.9931 12.1683 20.504 13.1507 20.6666 14.2119Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M22.6041 8.125H22.6163" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </a>
-                  <a href="#" aria-label="Facebook" className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-[rgba(240,240,240,0.1)] border border-[rgba(240,240,240,0.2)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
-                    <svg width="20" height="20" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M23.25 2.5H19.375C17.6621 2.5 16.0194 3.15848 14.8082 4.33058C13.5971 5.50268 12.9166 7.0924 12.9166 8.75V12.5H9.04163V17.5H12.9166V27.5H18.0833V17.5H21.9583L23.25 12.5H18.0833V8.75C18.0833 8.41848 18.2194 8.10054 18.4616 7.86612C18.7038 7.6317 19.0324 7.5 19.375 7.5H23.25V2.5Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </a>
+        {/* STATS BAR - Overlay at Bottom */}
+        <div className="stats-bar absolute bottom-0 left-0 right-0 z-10 bg-[rgba(21,23,31,0.5)] backdrop-blur-sm border-t border-[rgba(240,240,240,0.1)]">
+          <div className="max-w-[1440px] mx-auto px-[240px] py-8 md:py-10 w-full">
+            <div className="flex flex-wrap items-center justify-between gap-8">
+              <div className="stats-numbers flex flex-wrap gap-8 md:gap-16">
+                <div className="stat-item">
+                  <div className="stat-number text-white text-[48px] leading-tight tracking-[-2px] font-normal">14+</div>
+                  <div className="stat-label text-[rgba(240,240,240,0.85)] text-base">Years of Experience</div>
                 </div>
+                <div className="stat-item">
+                  <div className="stat-number text-white text-[48px] leading-tight tracking-[-2px] font-normal">80+</div>
+                  <div className="stat-label text-[rgba(240,240,240,0.85)] text-base">Certifications</div>
+                </div>
+                <div className="stat-item">
+                  <div className="stat-number text-white text-[48px] leading-tight tracking-[-2px] font-normal">500+</div>
+                  <div className="stat-label text-[rgba(240,240,240,0.85)] text-base">Patients Treated</div>
+                </div>
+              </div>
+
+              <div className="social-icons flex gap-4">
+                <a href="#" aria-label="LinkedIn" className="social-icon w-14 h-14 rounded-full bg-[rgba(240,240,240,0.1)] border border-[rgba(240,240,240,0.2)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
+                  <svg width="20" height="20" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.6666 10C22.7221 10 24.6933 10.7902 26.1467 12.1967C27.6001 13.6032 28.4166 15.5109 28.4166 17.5V26.25H23.25V17.5C23.25 16.837 22.9778 16.2011 22.4933 15.7322C22.0088 15.2634 21.3518 15 20.6666 15C19.9815 15 19.3244 15.2634 18.8399 15.7322C18.3555 16.2011 18.0833 16.837 18.0833 17.5V26.25H12.9166V17.5C12.9166 15.5109 13.7331 13.6032 15.1865 12.1967C16.64 10.7902 18.6112 10 20.6666 10Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M7.75004 11.25H2.58337V26.25H7.75004V11.25Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M5.16671 7.5C6.59344 7.5 7.75004 6.38071 7.75004 5C7.75004 3.61929 6.59344 2.5 5.16671 2.5C3.73997 2.5 2.58337 3.61929 2.58337 5C2.58337 6.38071 3.73997 7.5 5.16671 7.5Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </a>
+                <a href="#" aria-label="Instagram" className="social-icon w-14 h-14 rounded-full bg-[rgba(240,240,240,0.1)] border border-[rgba(240,240,240,0.2)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
+                  <svg width="20" height="20" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.9584 2.5H9.04171C5.47487 2.5 2.58337 5.29822 2.58337 8.75V21.25C2.58337 24.7018 5.47487 27.5 9.04171 27.5H21.9584C25.5252 27.5 28.4167 24.7018 28.4167 21.25V8.75C28.4167 5.29822 25.5252 2.5 21.9584 2.5Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M20.6666 14.2119C20.826 15.2522 20.6424 16.3147 20.1419 17.2482C19.6414 18.1817 18.8494 18.9387 17.8787 19.4115C16.908 19.8843 15.8079 20.0489 14.735 19.8818C13.6621 19.7147 12.6709 19.2245 11.9024 18.4809C11.134 17.7372 10.6274 16.778 10.4548 15.7397C10.2821 14.7013 10.4522 13.6368 10.9408 12.6974C11.4294 11.758 12.2116 10.9916 13.1762 10.5072C14.1408 10.0228 15.2387 9.84514 16.3137 9.9994C17.4102 10.1568 18.4254 10.6512 19.2092 11.4098C19.9931 12.1683 20.504 13.1507 20.6666 14.2119Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M22.6041 8.125H22.6163" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </a>
+                <a href="#" aria-label="Facebook" className="social-icon w-14 h-14 rounded-full bg-[rgba(240,240,240,0.1)] border border-[rgba(240,240,240,0.2)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
+                  <svg width="20" height="20" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.25 2.5H19.375C17.6621 2.5 16.0194 3.15848 14.8082 4.33058C13.5971 5.50268 12.9166 7.0924 12.9166 8.75V12.5H9.04163V17.5H12.9166V27.5H18.0833V17.5H21.9583L23.25 12.5H18.0833V8.75C18.0833 8.41848 18.2194 8.10054 18.4616 7.86612C18.7038 7.6317 19.0324 7.5 19.375 7.5H23.25V2.5Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
