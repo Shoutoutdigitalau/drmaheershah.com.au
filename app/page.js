@@ -75,46 +75,31 @@ export default function Home() {
         </div>
 
         {/* STATS BAR - Overlay at Bottom */}
-        <div className="stats-bar absolute bottom-0 left-0 right-0 z-10 bg-[rgba(21,23,31,0.5)] backdrop-blur-sm border-t border-[rgba(240,240,240,0.1)]">
-          <div className="max-w-[1440px] mx-auto px-[240px] py-8 md:py-10 w-full">
-            <div className="flex flex-wrap items-center justify-between gap-8">
-              <div className="stats-numbers flex flex-wrap gap-8 md:gap-16">
-                <div className="stat-item">
-                  <div className="stat-number text-white text-[48px] leading-tight tracking-[-2px] font-normal">14+</div>
-                  <div className="stat-label text-[rgba(240,240,240,0.85)] text-base">Years of Experience</div>
-                </div>
-                <div className="stat-item">
-                  <div className="stat-number text-white text-[48px] leading-tight tracking-[-2px] font-normal">80+</div>
-                  <div className="stat-label text-[rgba(240,240,240,0.85)] text-base">Certifications</div>
-                </div>
-                <div className="stat-item">
-                  <div className="stat-number text-white text-[48px] leading-tight tracking-[-2px] font-normal">500+</div>
-                  <div className="stat-label text-[rgba(240,240,240,0.85)] text-base">Patients Treated</div>
-                </div>
-              </div>
+        <div className="stats-bar absolute bottom-0 left-0 right-0 z-10 flex items-center justify-between" style={{background: "rgba(21,23,31,0.3)", padding: "54px 240px"}}>
+          <div className="stats-text text-white text-base">
+            14+ Years of Experience | 80+ Certifications | 500+ Patients Treated
+          </div>
 
-              <div className="social-icons flex gap-4">
-                <a href="#" aria-label="LinkedIn" className="social-icon w-14 h-14 rounded-full bg-[rgba(240,240,240,0.1)] border border-[rgba(240,240,240,0.2)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
-                  <svg width="20" height="20" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20.6666 10C22.7221 10 24.6933 10.7902 26.1467 12.1967C27.6001 13.6032 28.4166 15.5109 28.4166 17.5V26.25H23.25V17.5C23.25 16.837 22.9778 16.2011 22.4933 15.7322C22.0088 15.2634 21.3518 15 20.6666 15C19.9815 15 19.3244 15.2634 18.8399 15.7322C18.3555 16.2011 18.0833 16.837 18.0833 17.5V26.25H12.9166V17.5C12.9166 15.5109 13.7331 13.6032 15.1865 12.1967C16.64 10.7902 18.6112 10 20.6666 10Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M7.75004 11.25H2.58337V26.25H7.75004V11.25Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M5.16671 7.5C6.59344 7.5 7.75004 6.38071 7.75004 5C7.75004 3.61929 6.59344 2.5 5.16671 2.5C3.73997 2.5 2.58337 3.61929 2.58337 5C2.58337 6.38071 3.73997 7.5 5.16671 7.5Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </a>
-                <a href="#" aria-label="Instagram" className="social-icon w-14 h-14 rounded-full bg-[rgba(240,240,240,0.1)] border border-[rgba(240,240,240,0.2)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
-                  <svg width="20" height="20" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M21.9584 2.5H9.04171C5.47487 2.5 2.58337 5.29822 2.58337 8.75V21.25C2.58337 24.7018 5.47487 27.5 9.04171 27.5H21.9584C25.5252 27.5 28.4167 24.7018 28.4167 21.25V8.75C28.4167 5.29822 25.5252 2.5 21.9584 2.5Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M20.6666 14.2119C20.826 15.2522 20.6424 16.3147 20.1419 17.2482C19.6414 18.1817 18.8494 18.9387 17.8787 19.4115C16.908 19.8843 15.8079 20.0489 14.735 19.8818C13.6621 19.7147 12.6709 19.2245 11.9024 18.4809C11.134 17.7372 10.6274 16.778 10.4548 15.7397C10.2821 14.7013 10.4522 13.6368 10.9408 12.6974C11.4294 11.758 12.2116 10.9916 13.1762 10.5072C14.1408 10.0228 15.2387 9.84514 16.3137 9.9994C17.4102 10.1568 18.4254 10.6512 19.2092 11.4098C19.9931 12.1683 20.504 13.1507 20.6666 14.2119Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M22.6041 8.125H22.6163" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </a>
-                <a href="#" aria-label="Facebook" className="social-icon w-14 h-14 rounded-full bg-[rgba(240,240,240,0.1)] border border-[rgba(240,240,240,0.2)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
-                  <svg width="20" height="20" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M23.25 2.5H19.375C17.6621 2.5 16.0194 3.15848 14.8082 4.33058C13.5971 5.50268 12.9166 7.0924 12.9166 8.75V12.5H9.04163V17.5H12.9166V27.5H18.0833V17.5H21.9583L23.25 12.5H18.0833V8.75C18.0833 8.41848 18.2194 8.10054 18.4616 7.86612C18.7038 7.6317 19.0324 7.5 19.375 7.5H23.25V2.5Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </a>
-              </div>
-            </div>
+          <div className="social-icons flex gap-[20px]">
+            <a href="#" aria-label="LinkedIn" className="social-icon w-14 h-14 rounded-full bg-[rgba(240,240,240,0.1)] border border-[rgba(240,240,240,0.2)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
+              <svg width="20" height="20" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.6666 10C22.7221 10 24.6933 10.7902 26.1467 12.1967C27.6001 13.6032 28.4166 15.5109 28.4166 17.5V26.25H23.25V17.5C23.25 16.837 22.9778 16.2011 22.4933 15.7322C22.0088 15.2634 21.3518 15 20.6666 15C19.9815 15 19.3244 15.2634 18.8399 15.7322C18.3555 16.2011 18.0833 16.837 18.0833 17.5V26.25H12.9166V17.5C12.9166 15.5109 13.7331 13.6032 15.1865 12.1967C16.64 10.7902 18.6112 10 20.6666 10Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M7.75004 11.25H2.58337V26.25H7.75004V11.25Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M5.16671 7.5C6.59344 7.5 7.75004 6.38071 7.75004 5C7.75004 3.61929 6.59344 2.5 5.16671 2.5C3.73997 2.5 2.58337 3.61929 2.58337 5C2.58337 6.38071 3.73997 7.5 5.16671 7.5Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Instagram" className="social-icon w-14 h-14 rounded-full bg-[rgba(240,240,240,0.1)] border border-[rgba(240,240,240,0.2)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
+              <svg width="20" height="20" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.9584 2.5H9.04171C5.47487 2.5 2.58337 5.29822 2.58337 8.75V21.25C2.58337 24.7018 5.47487 27.5 9.04171 27.5H21.9584C25.5252 27.5 28.4167 24.7018 28.4167 21.25V8.75C28.4167 5.29822 25.5252 2.5 21.9584 2.5Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M20.6666 14.2119C20.826 15.2522 20.6424 16.3147 20.1419 17.2482C19.6414 18.1817 18.8494 18.9387 17.8787 19.4115C16.908 19.8843 15.8079 20.0489 14.735 19.8818C13.6621 19.7147 12.6709 19.2245 11.9024 18.4809C11.134 17.7372 10.6274 16.778 10.4548 15.7397C10.2821 14.7013 10.4522 13.6368 10.9408 12.6974C11.4294 11.758 12.2116 10.9916 13.1762 10.5072C14.1408 10.0228 15.2387 9.84514 16.3137 9.9994C17.4102 10.1568 18.4254 10.6512 19.2092 11.4098C19.9931 12.1683 20.504 13.1507 20.6666 14.2119Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M22.6041 8.125H22.6163" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Facebook" className="social-icon w-14 h-14 rounded-full bg-[rgba(240,240,240,0.1)] border border-[rgba(240,240,240,0.2)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
+              <svg width="20" height="20" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23.25 2.5H19.375C17.6621 2.5 16.0194 3.15848 14.8082 4.33058C13.5971 5.50268 12.9166 7.0924 12.9166 8.75V12.5H9.04163V17.5H12.9166V27.5H18.0833V17.5H21.9583L23.25 12.5H18.0833V8.75C18.0833 8.41848 18.2194 8.10054 18.4616 7.86612C18.7038 7.6317 19.0324 7.5 19.375 7.5H23.25V2.5Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </a>
           </div>
         </div>
       </section>
