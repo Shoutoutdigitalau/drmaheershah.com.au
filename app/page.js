@@ -565,15 +565,15 @@ export default function Home() {
               <div className="space-y-[42px]">
                 <div className="space-y-[30px]">
                   <div>
-                    <p className="text-[#15171F] text-lg font-medium mb-[10px]">
+                    <p className="about-intro mb-[10px]">
                       My journey in dentistry began with a simple question:
                     </p>
-                    <p className="text-[#15171F] text-[36px] md:text-[40px] font-medium leading-[50px] bg-gradient-to-r from-[#00A1E0] to-[#124C69] bg-clip-text text-transparent">
+                    <p className="about-quote">
                       Why do we keep doing things the way we've always done them?
                     </p>
                   </div>
 
-                  <p className="text-[#15171F] text-lg leading-relaxed">
+                  <p className="about-body leading-relaxed">
                     After training in biomimetic techniques internationally and integrating holistic practices from my yoga background, I realized dentistry needed a revolution—not just for patients, but for practitioners.
                     <br /><br />
                     Traditional dentistry often focuses on fixing problems after they occur. I wanted to create a practice that prevents problems, preserves natural tooth structure, and treats the whole person, not just teeth.
