@@ -556,8 +556,8 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[rgba(21,23,31,0.84)] via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-[42px]">
-                <h3 className="text-white text-[36px] md:text-[40px] font-medium leading-[46px] mb-1">Dr Maheer Shah</h3>
-                <p className="text-[#00A1E0] text-xl">Principal Dentist</p>
+                <h3 className="doctor-name mb-1">Dr Maheer Shah</h3>
+                <p className="doctor-title">Principal Dentist</p>
               </div>
             </div>
 
