@@ -1196,10 +1196,10 @@ export default function Home() {
           {/* Start Your Digital Transformation Today */}
           <div className="flex-1 rounded-[24px] p-[58px_46px] bg-gradient-to-br from-[#15171F] to-[#124C69] relative overflow-hidden" style={{backgroundImage: "url('https://api.builder.io/api/v1/image/assets/TEMP/5b8cf104e15b29e1f710c1846e9287ff65cc995d')", backgroundSize: 'cover'}}>
             <div className="relative z-10">
-              <h3 className="text-white text-[36px] font-medium leading-[48px] mb-4">
+              <h3 className="card-headline mb-4">
                 Start Your Digital<br />Transformation Today
               </h3>
-              <p className="text-white text-base leading-7 mb-[34px]">
+              <p className="card-body mb-[34px]">
                 Enroll in any course and get instant access to all materials. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat aucibus.
               </p>
               <div className="rounded-xl border border-[rgba(255,255,255,0.3)] bg-[rgba(0,161,224,0.1)] p-6 mb-10">
@@ -1208,41 +1208,41 @@ export default function Home() {
                     <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                       <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#FFF" strokeWidth="1.2"/>
                     </svg>
-                    <span className="text-white text-base">Instant Access</span>
+                    <span className="course-duration">Instant Access</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                       <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#FFF" strokeWidth="1.2"/>
                     </svg>
-                    <span className="text-white text-base">Lifetime Updates</span>
+                    <span className="course-duration">Lifetime Updates</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                       <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#FFF" strokeWidth="1.2"/>
                     </svg>
-                    <span className="text-white text-base">Community Access</span>
+                    <span className="course-duration">Community Access</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <svg width="13" height="10" viewBox="0 0 13 10" fill="none">
                       <path d="M0 6.26L3.745 10.004L12.646 0.004" stroke="#FFF" strokeWidth="1.2"/>
                     </svg>
-                    <span className="text-white text-base">CE Credits</span>
+                    <span className="course-duration">CE Credits</span>
                   </li>
                 </ul>
               </div>
-              <button className="w-full px-[22px] py-3 rounded-full bg-white text-[#15171F] font-medium flex items-center justify-center gap-3 hover:bg-gray-100 transition-colors mb-5">
-                <span>View All Courses</span>
+              <button className="button w-full bg-white text-[#15171F] flex items-center justify-center hover:bg-gray-100 transition-colors mb-5">
+                <span className="button-text">View All Courses</span>
                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
                   <path d="M1 9L9 1M9 1H2M9 1V8" stroke="#00A1E0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </button>
-              <button className="w-full px-[22px] py-3 rounded-full bg-[#00A1E0] text-white font-medium flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-colors mb-5">
-                <span>Download Free Course Guide (PDF)</span>
+              <button className="button w-full bg-[#00A1E0] text-white flex items-center justify-center hover:bg-[#0090c9] transition-colors mb-5">
+                <span className="button-text">Download Free Course Guide (PDF)</span>
                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
                   <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </button>
-              <p className="text-white text-sm text-center italic">30-day money-back guarantee.</p>
+              <p className="case-body text-center italic">30-day money-back guarantee.</p>
             </div>
           </div>
         </div>
