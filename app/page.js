@@ -50,42 +50,28 @@ export default function Home() {
         {/* Hero Container - Two Column Grid */}
         <div className="hero-container grid grid-cols-2 min-h-screen">
           {/* LEFT COLUMN - Gradient Background with Text */}
-          <div className="hero-left relative bg-gradient-to-br from-[rgba(0,161,224,0.9)] via-[rgba(18,76,105,0.9)] to-[rgba(10,49,71,0.9)] flex flex-col justify-center px-[60px] py-[120px]">
+          <div className="hero-left relative flex flex-col justify-center px-[80px] py-[120px]" style={{background: "linear-gradient(135deg, #0082b3 0%, #124c69 100%)"}}>
             <div className="hero-content max-w-[600px]">
-              <h1 className="hero-title text-white text-[74px] font-medium leading-[1.08] mb-6">
+              <h1 className="hero-title text-[#f0f0f0] text-[74px] font-medium leading-[80px] mb-6">
                 Where Traditional Dentistry Meets Digital Innovation
               </h1>
-              <p className="hero-description text-[rgba(240,240,240,0.95)] text-[18px] leading-relaxed mb-12">
+              <p className="hero-description text-[rgba(240,240,240,0.9)] text-[20px] leading-relaxed mb-12">
                 Expert care for patients seeking the future of dentistry | Advanced training for practitioners mastering digital workflows.
               </p>
 
-              <div className="hero-buttons flex flex-col sm:flex-row gap-6">
-                <button className="primary-cta bg-[#00A1E0] text-white px-8 py-4 rounded-full inline-flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-all hover:shadow-lg font-medium focus:outline-none focus:ring-2 focus:ring-white/50">
+              <div className="hero-buttons flex gap-[24px]">
+                <button className="primary-cta bg-[#00a1e0] text-white px-[22px] py-[12px] rounded-full inline-flex items-center justify-center gap-2 hover:bg-[#0090c9] transition-all hover:shadow-lg font-medium focus:outline-none focus:ring-2 focus:ring-white/50 text-sm">
                   <span>Book a Consultation</span>
-                  <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
                 </button>
-                <button className="secondary-cta bg-white text-[#15171F] px-8 py-4 rounded-full inline-flex items-center justify-center gap-3 hover:bg-[#f5f5f5] transition-all hover:shadow-lg font-medium focus:outline-none focus:ring-2 focus:ring-[#00A1E0]/50">
+                <button className="secondary-cta bg-white text-[#15171F] px-[22px] py-[12px] rounded-full inline-flex items-center justify-center gap-2 hover:bg-[#f5f5f5] transition-all hover:shadow-lg font-medium focus:outline-none focus:ring-2 focus:ring-[#00a1e0]/50 text-sm">
                   <span>Explore Courses</span>
-                  <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
                 </button>
               </div>
             </div>
           </div>
 
           {/* RIGHT COLUMN - Hero Background Image */}
-          <div className="hero-right relative overflow-hidden">
-            <Image
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/hero-bg-image"
-              alt="Dr. Maheer Shah in clinic environment"
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
+          <div className="hero-right relative overflow-hidden" style={{backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F4180cf4ba9354e9e8b40c4dc6a5abfa9%2F3960a92c14444b9f8af3c93f8a78f540?format=webp&width=800')`, backgroundSize: "cover", backgroundPosition: "center"}}></div>
         </div>
 
         {/* STATS BAR - Overlay at Bottom */}
