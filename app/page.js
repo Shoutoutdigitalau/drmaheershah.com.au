@@ -1352,20 +1352,20 @@ export default function Home() {
           {/* Stats */}
           <div className="flex items-center gap-10">
             <div className="rounded-[24px] bg-gradient-to-br from-[#00A1E0] to-[#124C69] px-7 py-[42px] text-center flex-1">
-              <div className="text-white text-[60px] font-medium leading-[64px] tracking-[-2px] mb-0.5">500+</div>
-              <div className="text-[rgba(240,240,240,0.9)] text-base">Patients Treated</div>
+              <div className="stats-number">500+</div>
+              <div className="stats-label">Patients Treated</div>
             </div>
             <div className="rounded-[24px] bg-gradient-to-br from-[#00A1E0] to-[#124C69] px-7 py-[42px] text-center flex-1">
-              <div className="text-white text-[60px] font-medium leading-[64px] tracking-[-2px] mb-0.5">200+</div>
-              <div className="text-[rgba(240,240,240,0.9)] text-base">Dentist Trained</div>
+              <div className="stats-number">200+</div>
+              <div className="stats-label">Dentist Trained</div>
             </div>
             <div className="rounded-[24px] bg-gradient-to-br from-[#00A1E0] to-[#124C69] px-7 py-[42px] text-center flex-1">
-              <div className="text-white text-[60px] font-medium leading-[64px] tracking-[-2px] mb-0.5">98%</div>
-              <div className="text-[rgba(240,240,240,0.9)] text-base">Patient Satisfaction</div>
+              <div className="stats-number">98%</div>
+              <div className="stats-label">Patient Satisfaction</div>
             </div>
             <div className="rounded-[24px] bg-gradient-to-br from-[#00A1E0] to-[#124C69] px-7 py-[42px] text-center flex-1">
-              <div className="text-white text-[60px] font-medium leading-[64px] tracking-[-2px] mb-0.5">4.9/5</div>
-              <div className="text-[rgba(240,240,240,0.9)] text-base">Course Rating</div>
+              <div className="stats-number">4.9/5</div>
+              <div className="stats-label">Course Rating</div>
             </div>
           </div>
         </div>
