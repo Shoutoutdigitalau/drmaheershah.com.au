@@ -3,103 +3,140 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="bg-[#F0F0F0] overflow-hidden">
-      {/* Hero Section */}
-      <section className="hero-section relative min-h-screen overflow-hidden">
-        {/* Header - Single horizontal row */}
-        <header className="hero-header absolute top-0 left-0 right-0 z-50 flex justify-between items-center px-[240px] py-[40px]">
-          {/* Logo - Left */}
-          <div className="logo-wrapper flex-shrink-0">
-            <Image
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/8a3c1bc0a5e74e5c9e1d8f2c3a4b5c6d"
-              alt="Dr Maheer Shah Logo"
-              width={180}
-              height={32}
-              className="h-8 w-auto"
-              priority
-            />
+      {/* Hero Section - Full Width with Background */}
+      <section className="hero-section relative w-full min-h-screen overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 w-full h-full">
+          <Image
+            src="https://cdn.builder.io/api/v1/image/assets%2F4180cf4ba9354e9e8b40c4dc6a5abfa9%2F3960a92c14444b9f8af3c93f8a78f540?format=webp&width=1920"
+            alt="Dr Maheer Shah Dental Clinic"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
+
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 w-full h-full" style={{background: "linear-gradient(64deg, rgba(18, 76, 105, 0.91) 8.04%, rgba(18, 76, 105, 0.94) 28.29%, rgba(18, 76, 105, 0.74) 43.27%, rgba(33, 116, 148, 0.28) 72.88%)"}}></div>
+
+        {/* Main Content Container */}
+        <div className="relative z-10 flex flex-col items-center w-full min-h-screen pt-[39px]">
+          {/* Header */}
+          <div className="w-full max-w-[1440px] px-6 lg:px-0">
+            <header className="flex items-center justify-between gap-[135px]">
+              {/* Logo */}
+              <div className="logo-wrapper">
+                <svg width="297" height="28" viewBox="0 0 297 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M24.2111 14.0193C24.2111 16.697 23.6401 19.0786 22.4981 21.1641C21.3814 23.2239 19.7572 24.8331 17.6254 25.9917C15.519 27.1503 13.0319 27.7297 10.1641 27.7297H0V0.424829H10.1641C13.0573 0.424829 15.5571 0.991265 17.6635 2.12414C19.7699 3.25701 21.3814 4.85333 22.4981 6.9131C23.6401 8.97287 24.2111 11.3416 24.2111 14.0193ZM9.59309 21.8207C12.1309 21.8207 14.0978 21.1384 15.4936 19.7738C16.9148 18.4092 17.6254 16.491 17.6254 14.0193C17.6254 11.5476 16.9148 9.62943 15.4936 8.26483C14.0978 6.90023 12.1309 6.21793 9.59309 6.21793H6.5096V21.8207H9.59309Z" fill="#F0F0F0"/>
+                  <path d="M39.6226 27.7297L33.7983 17.4179H32.3136V27.7297H25.804V0.424829H36.9198C39.0516 0.424829 40.8535 0.798162 42.3254 1.54483C43.7974 2.29149 44.9014 3.32138 45.6373 4.63448C46.3733 5.92184 46.7413 7.4023 46.7413 9.07586C46.7413 11.0584 46.1957 12.7448 45.1044 14.1352C44.0385 15.5255 42.4777 16.4782 40.4221 16.9931L46.8175 27.7297H39.6226ZM32.3136 12.8993H36.3488C37.6431 12.8993 38.5948 12.6161 39.2039 12.0497C39.813 11.4575 40.1175 10.5949 40.1175 9.46207C40.1175 8.38069 39.8003 7.53103 39.1658 6.9131C38.5567 6.29517 37.6177 5.98621 36.3488 5.98621H32.3136V12.8993Z" fill="#F0F0F0"/>
+                  <path d="M83.6605 0.617932V27.7297H77.1509V10.7752L71.3646 27.7297H65.7306L59.9062 10.7366V27.7297H53.3966V0.617932H61.3527L68.6237 19.5034L75.7424 0.617932H83.6605Z" fill="#F0F0F0"/>
+                  <path d="M102.715 22.7476H92.6266L90.9516 27.7297H84.0994L93.959 0.617932H101.458L111.318 27.7297H104.39L102.715 22.7476ZM101.04 17.7269L97.6896 7.68552L94.3016 17.7269H101.04Z" fill="#F0F0F0"/>
+                  <path d="M134.993 0.424829V27.7297H128.445V16.3366H118.243V27.7297H111.733V0.424829H118.243V11.0069H128.445V0.424829H134.993Z" fill="#F0F0F0"/>
+                  <path d="M143.861 5.67724V11.3931H152.959V16.3752H143.861V22.4386H154.101V27.7297H137.352V0.424829H154.101V5.67724H143.861Z" fill="#F0F0F0"/>
+                  <path d="M162.193 5.67724V11.3931H171.291V16.3752H162.193V22.4386H172.433V27.7297H155.683V0.424829H172.433V5.67724H162.193Z" fill="#F0F0F0"/>
+                  <path d="M187.834 27.7297L182.009 17.4179H180.525V27.7297H174.015V0.424829H185.131C187.263 0.424829 189.064 0.798162 190.536 1.54483C192.008 2.29149 193.112 3.32138 193.848 4.63448C194.584 5.92184 194.952 7.4023 194.952 9.07586C194.952 11.0584 194.407 12.7448 193.315 14.1352C192.249 15.5255 190.689 16.4782 188.633 16.9931L195.028 27.7297H187.834ZM180.525 12.8993H184.56C185.854 12.8993 186.806 12.6161 187.415 12.0497C188.024 11.4575 188.328 10.5949 188.328 9.46207C188.328 8.38069 188.011 7.53103 187.377 6.9131C186.768 6.29517 185.829 5.98621 184.56 5.98621H180.525V12.8993Z" fill="#F0F0F0"/>
+                  <path d="M220.946 20.0441C220.946 21.486 220.578 22.812 219.842 24.0221C219.131 25.2322 218.065 26.1977 216.644 26.9186C215.248 27.6395 213.548 28 211.543 28C208.523 28 206.036 27.2533 204.082 25.76C202.128 24.2667 201.062 22.1812 200.884 19.5034H207.813C207.914 20.5333 208.269 21.3444 208.878 21.9366C209.513 22.5287 210.312 22.8248 211.277 22.8248C212.114 22.8248 212.774 22.5931 213.256 22.1297C213.738 21.6662 213.98 21.0483 213.98 20.2759C213.98 19.5807 213.751 19.0014 213.294 18.5379C212.863 18.0745 212.317 17.7011 211.657 17.4179C210.998 17.109 210.084 16.7485 208.917 16.3366C207.216 15.7444 205.82 15.1779 204.729 14.6372C203.663 14.0708 202.737 13.2469 201.95 12.1655C201.189 11.0584 200.808 9.62943 200.808 7.87862C200.808 6.25655 201.214 4.85333 202.026 3.66897C202.838 2.4846 203.955 1.58345 205.376 0.965519C206.823 0.32184 208.472 0 210.325 0C213.32 0 215.693 0.720919 217.444 2.16276C219.22 3.6046 220.223 5.58713 220.451 8.11035H213.409C213.282 7.2092 212.952 6.50115 212.419 5.98621C211.911 5.44552 211.213 5.17517 210.325 5.17517C209.564 5.17517 208.942 5.38115 208.46 5.7931C208.003 6.20506 207.774 6.81011 207.774 7.60828C207.774 8.25195 207.978 8.80552 208.384 9.26897C208.815 9.70667 209.348 10.0671 209.982 10.3503C210.617 10.6336 211.53 10.994 212.723 11.4317C214.449 12.0239 215.858 12.6161 216.949 13.2083C218.04 13.7747 218.979 14.6115 219.766 15.7186C220.553 16.8257 220.946 18.2676 220.946 20.0441Z" fill="#F0F0F0"/>
+                  <path d="M245.689 0.424829V27.7297H239.142V16.3366H228.94V27.7297H222.43V0.424829H228.94V11.0069H239.142V0.424829H245.689Z" fill="#F0F0F0"/>
+                  <path d="M264.722 22.7476H254.634L252.959 27.7297H246.107L255.966 0.617932H263.466L273.325 27.7297H266.397L264.722 22.7476ZM263.047 17.7269L259.697 7.68552L256.309 17.7269H263.047Z" fill="#F0F0F0"/>
+                  <path d="M297 0.424829V27.7297H290.452V16.3366H280.25V27.7297H273.741V0.424829H280.25V11.0069H290.452V0.424829H297Z" fill="#F0F0F0"/>
+                </svg>
+              </div>
+
+              {/* Navigation */}
+              <nav className="flex items-center gap-[40px] flex-1 justify-center">
+                <a href="#about" className="text-[#F0F0F0] font-medium text-base hover:opacity-80 transition-opacity">About Us</a>
+                <a href="#services" className="text-[#F0F0F0] font-medium text-base hover:opacity-80 transition-opacity">Patient Services</a>
+                <a href="#gallery" className="text-[#F0F0F0] font-medium text-base hover:opacity-80 transition-opacity">Case Gallery</a>
+                <a href="#dentists" className="text-[#F0F0F0] font-medium text-base hover:opacity-80 transition-opacity">For Dentists</a>
+                <a href="#contact" className="text-[#F0F0F0] font-medium text-base hover:opacity-80 transition-opacity">Contact Us</a>
+              </nav>
+
+              {/* CTA Button */}
+              <button className="flex px-[22px] py-[12px] justify-center items-center gap-[12px] rounded-full bg-[#00A1E0] hover:bg-[#0090c9] transition-colors">
+                <span className="text-[#F0F0F0] font-medium text-base leading-6">Book a Consultation</span>
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.49536 9.97926C9.71395 9.87783 9.82108 9.74488 9.93834 9.53652C9.99839 9.36595 9.98907 9.18961 9.98886 9.01107C9.98899 8.97573 9.98912 8.94039 9.98926 8.90398C9.98964 8.78544 9.98971 8.66689 9.98978 8.54835C9.98998 8.4634 9.9902 8.37846 9.99044 8.29351C9.99102 8.06262 9.99131 7.83173 9.99151 7.60084C9.99164 7.45657 9.99182 7.31231 9.99202 7.16804C9.99262 6.71662 9.99305 6.26519 9.99322 5.81377C9.99342 5.29276 9.9942 4.77175 9.99548 4.25073C9.99644 3.84795 9.99689 3.44517 9.99694 3.04239C9.99699 2.80186 9.99725 2.56133 9.99804 2.32079C9.99877 2.09446 9.99887 1.86815 9.99848 1.64182C9.99845 1.55886 9.99864 1.47591 9.99908 1.39295C9.99964 1.27946 9.99938 1.166 9.99892 1.05251C9.99945 1.0036 9.99945 1.0036 10 0.953689C9.99766 0.706713 9.957 0.452911 9.7917 0.259596C9.54252 0.0371342 9.28086 0.00437164 8.95897 0.00601482C8.92354 0.00584602 8.88811 0.00567627 8.85161 0.00550175C8.73327 0.00504589 8.61494 0.00522041 8.4966 0.00539684C8.4116 0.0052042 8.3266 0.00497437 8.24159 0.00471115C8.01095 0.00411892 7.78031 0.00409222 7.54966 0.00420475C7.35702 0.00425148 7.16437 0.00403595 6.97173 0.00382423C6.51717 0.00333309 6.06262 0.00331306 5.60807 0.00358105C5.13938 0.00384808 4.6707 0.00330353 4.20202 0.00236034C3.7994 0.00158024 3.39678 0.00131512 2.99416 0.00145912C2.75379 0.00153923 2.51343 0.00142193 2.27306 0.000806808C2.04698 0.000249863 1.8209 0.000336647 1.59482 0.00091362C1.51196 0.00101852 1.4291 0.000897408 1.34625 0.00053215C1.23289 6.77109e-05 1.11957 0.0004282 1.00622 0.00098896C0.973651 0.00066185 0.941082 0.000335693 0.907526 0C0.660022 0.00256443 0.399802 0.0408411 0.211904 0.214662C0.0152582 0.445912 -0.00228734 0.603988 0.000203716 0.90062C0.0222775 1.09447 0.0918905 1.21714 0.237094 1.34578C0.412896 1.47124 0.534525 1.4954 0.749249 1.49626C0.777838 1.49655 0.806428 1.49685 0.835884 1.49715C0.931315 1.49798 1.02672 1.49786 1.12215 1.49775C1.19071 1.49815 1.25926 1.49861 1.32781 1.49912C1.51368 1.50034 1.69954 1.50075 1.88541 1.50101C2.07975 1.50143 2.27407 1.50259 2.4684 1.50367C2.83629 1.5056 3.20418 1.50687 3.57207 1.50789C3.99095 1.50909 4.40982 1.51103 4.82869 1.51304C5.69024 1.51715 6.5518 1.52032 7.41336 1.52288C7.37832 1.55769 7.34329 1.59251 7.30719 1.62838C6.45476 2.47543 5.60298 3.32312 4.75186 4.17149C4.34025 4.58174 3.92843 4.99178 3.51613 5.40133C3.15677 5.75829 2.7978 6.11564 2.43929 6.47346C2.24945 6.66291 2.05942 6.85217 1.86891 7.04096C1.68958 7.21869 1.51078 7.39693 1.33237 7.57558C1.26683 7.64103 1.2011 7.70628 1.13516 7.77133C1.04507 7.86027 0.955686 7.94988 0.866443 8.03967C0.840287 8.06517 0.814131 8.09067 0.787181 8.11694C0.589931 8.3177 0.48134 8.52001 0.444394 8.80461C0.471912 9.09064 0.595422 9.2634 0.812967 9.44797C1.02286 9.56198 1.25029 9.55808 1.47744 9.49224C1.68968 9.3644 1.85699 9.21385 2.03081 9.03837C2.05853 9.01073 2.08625 8.9831 2.11482 8.95463C2.20725 8.86239 2.29937 8.76984 2.39149 8.67728C2.45785 8.61093 2.52423 8.54461 2.59062 8.4783C2.77055 8.29849 2.95021 8.1184 3.12982 7.93827C3.31767 7.74997 3.50576 7.56193 3.69383 7.37385C4.04982 7.01778 4.40558 6.66149 4.76125 6.30511C5.16624 5.89935 5.57148 5.49384 5.97674 5.08835C6.81028 4.25434 7.6435 3.42 8.47651 2.58546C8.47653 2.621 8.47656 2.65654 8.47658 2.69315C8.47725 3.55822 8.47913 4.42327 8.48236 5.28832C8.4839 5.70666 8.48502 6.12499 8.48517 6.54333C8.48531 6.90799 8.48622 7.27264 8.48805 7.6373C8.48899 7.83035 8.48955 8.02339 8.48919 8.21644C8.48885 8.39826 8.48955 8.58005 8.49104 8.76186C8.49141 8.82849 8.4914 8.89511 8.49098 8.96173C8.48744 9.5861 8.48744 9.5861 8.7423 9.84644C8.97298 10.0268 9.2143 10.0132 9.49536 9.97926Z" fill="#F0F0F0"/>
+                </svg>
+              </button>
+            </header>
           </div>
 
-          {/* Navigation Menu - Center */}
-          <nav className="nav-menu flex gap-[40px] flex-1 justify-center">
-            <a href="#about" className="nav-link text-white font-medium text-sm hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1">
-              About Us
-            </a>
-            <a href="#services" className="nav-link text-white font-medium text-sm hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1">
-              Patient Services
-            </a>
-            <a href="#gallery" className="nav-link text-white font-medium text-sm hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1">
-              Case Gallery
-            </a>
-            <a href="#dentists" className="nav-link text-white font-medium text-sm hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1">
-              For Dentists
-            </a>
-            <a href="#contact" className="nav-link text-white font-medium text-sm hover:text-[#F0F0F0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded px-2 py-1">
-              Contact
-            </a>
-          </nav>
+          {/* Hero Content - Left Aligned */}
+          <div className="flex-1 w-full max-w-[1440px] px-6 lg:px-0 flex items-center mt-[60px]">
+            <div className="w-[720px] flex flex-col gap-[64px]">
+              {/* Text Content */}
+              <div className="flex flex-col gap-4">
+                <h1 className="text-[#F0F0F0] font-medium text-[74px] leading-[80px]">
+                  Where Traditional Dentistry Meets Digital Innovation
+                </h1>
+                <p className="text-[rgba(240,240,240,0.9)] text-[20px] w-[642px]">
+                  Expert care for patients seeking the future of dentistry | Advanced training for practitioners mastering digital workflows.
+                </p>
+              </div>
 
-          {/* CTA Button - Right */}
-          <button className="cta-button bg-[#00A1E0] text-white px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#0090c9] transition-all hover:shadow-lg font-medium focus:outline-none focus:ring-2 focus:ring-white/50 text-sm whitespace-nowrap flex-shrink-0">
-            <span>Book a Consultation</span>
-            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          </button>
-        </header>
-
-        {/* Hero Container - Two Column Grid */}
-        <div className="hero-container grid grid-cols-2 min-h-screen relative">
-          {/* LEFT COLUMN - Gradient Background with Text */}
-          <div className="hero-left relative flex flex-col justify-center px-[80px] py-[120px]" style={{background: "linear-gradient(135deg, #0082b3 0%, #124c69 100%)"}}>
-            <div className="hero-content max-w-[600px]">
-              <h1 className="hero-title text-[#f0f0f0] text-[74px] font-medium leading-[80px] mb-6">
-                Where Traditional Dentistry Meets Digital Innovation
-              </h1>
-              <p className="hero-description text-[rgba(240,240,240,0.9)] text-[20px] leading-relaxed mb-12">
-                Expert care for patients seeking the future of dentistry | Advanced training for practitioners mastering digital workflows.
-              </p>
-
-              <div className="hero-buttons flex gap-[24px]">
-                <button className="primary-cta bg-[#00a1e0] text-white px-[22px] py-[12px] rounded-full inline-flex items-center justify-center gap-2 hover:bg-[#0090c9] transition-all hover:shadow-lg font-medium focus:outline-none focus:ring-2 focus:ring-white/50 text-sm">
-                  <span>Book a Consultation</span>
+              {/* Button Group */}
+              <div className="flex items-center gap-[24px]">
+                <button className="flex px-[22px] py-[12px] justify-center items-center gap-[12px] rounded-full bg-[#00A1E0] hover:bg-[#0090c9] transition-colors">
+                  <span className="text-[#F0F0F0] font-medium text-base leading-6">Book a Consultation</span>
+                  <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.49536 9.97926C9.71395 9.87783 9.82108 9.74488 9.93834 9.53652C9.99839 9.36595 9.98907 9.18961 9.98886 9.01107C9.98899 8.97573 9.98912 8.94039 9.98926 8.90398C9.98964 8.78544 9.98971 8.66689 9.98978 8.54835C9.98998 8.4634 9.9902 8.37846 9.99044 8.29351C9.99102 8.06262 9.99131 7.83173 9.99151 7.60084C9.99164 7.45657 9.99182 7.31231 9.99202 7.16804C9.99262 6.71662 9.99305 6.26519 9.99322 5.81377C9.99342 5.29276 9.9942 4.77175 9.99548 4.25073C9.99644 3.84795 9.99689 3.44517 9.99694 3.04239C9.99699 2.80186 9.99725 2.56133 9.99804 2.32079C9.99877 2.09446 9.99887 1.86815 9.99848 1.64182C9.99845 1.55886 9.99864 1.47591 9.99908 1.39295C9.99964 1.27946 9.99938 1.166 9.99892 1.05251C9.99945 1.0036 9.99945 1.0036 10 0.953689C9.99766 0.706713 9.957 0.452911 9.7917 0.259596C9.54252 0.0371342 9.28086 0.00437164 8.95897 0.00601482C8.92354 0.00584602 8.88811 0.00567627 8.85161 0.00550175C8.73327 0.00504589 8.61494 0.00522041 8.4966 0.00539684C8.4116 0.0052042 8.3266 0.00497437 8.24159 0.00471115C8.01095 0.00411892 7.78031 0.00409222 7.54966 0.00420475C7.35702 0.00425148 7.16437 0.00403595 6.97173 0.00382423C6.51717 0.00333309 6.06262 0.00331306 5.60807 0.00358105C5.13938 0.00384808 4.6707 0.00330353 4.20202 0.00236034C3.7994 0.00158024 3.39678 0.00131512 2.99416 0.00145912C2.75379 0.00153923 2.51343 0.00142193 2.27306 0.000806808C2.04698 0.000249863 1.8209 0.000336647 1.59482 0.00091362C1.51196 0.00101852 1.4291 0.000897408 1.34625 0.00053215C1.23289 6.77109e-05 1.11957 0.0004282 1.00622 0.00098896C0.973651 0.00066185 0.941082 0.000335693 0.907526 0C0.660022 0.00256443 0.399802 0.0408411 0.211904 0.214662C0.0152582 0.445912 -0.00228734 0.603988 0.000203716 0.90062C0.0222775 1.09447 0.0918905 1.21714 0.237094 1.34578C0.412896 1.47124 0.534525 1.4954 0.749249 1.49626C0.777838 1.49655 0.806428 1.49685 0.835884 1.49715C0.931315 1.49798 1.02672 1.49786 1.12215 1.49775C1.19071 1.49815 1.25926 1.49861 1.32781 1.49912C1.51368 1.50034 1.69954 1.50075 1.88541 1.50101C2.07975 1.50143 2.27407 1.50259 2.4684 1.50367C2.83629 1.5056 3.20418 1.50687 3.57207 1.50789C3.99095 1.50909 4.40982 1.51103 4.82869 1.51304C5.69024 1.51715 6.5518 1.52032 7.41336 1.52288C7.37832 1.55769 7.34329 1.59251 7.30719 1.62838C6.45476 2.47543 5.60298 3.32312 4.75186 4.17149C4.34025 4.58174 3.92843 4.99178 3.51613 5.40133C3.15677 5.75829 2.7978 6.11564 2.43929 6.47346C2.24945 6.66291 2.05942 6.85217 1.86891 7.04096C1.68958 7.21869 1.51078 7.39693 1.33237 7.57558C1.26683 7.64103 1.2011 7.70628 1.13516 7.77133C1.04507 7.86027 0.955686 7.94988 0.866443 8.03967C0.840287 8.06517 0.814131 8.09067 0.787181 8.11694C0.589931 8.3177 0.48134 8.52001 0.444394 8.80461C0.471912 9.09064 0.595422 9.2634 0.812967 9.44797C1.02286 9.56198 1.25029 9.55808 1.47744 9.49224C1.68968 9.3644 1.85699 9.21385 2.03081 9.03837C2.05853 9.01073 2.08625 8.9831 2.11482 8.95463C2.20725 8.86239 2.29937 8.76984 2.39149 8.67728C2.45785 8.61093 2.52423 8.54461 2.59062 8.4783C2.77055 8.29849 2.95021 8.1184 3.12982 7.93827C3.31767 7.74997 3.50576 7.56193 3.69383 7.37385C4.04982 7.01778 4.40558 6.66149 4.76125 6.30511C5.16624 5.89935 5.57148 5.49384 5.97674 5.08835C6.81028 4.25434 7.6435 3.42 8.47651 2.58546C8.47653 2.621 8.47656 2.65654 8.47658 2.69315C8.47725 3.55822 8.47913 4.42327 8.48236 5.28832C8.4839 5.70666 8.48502 6.12499 8.48517 6.54333C8.48531 6.90799 8.48622 7.27264 8.48805 7.6373C8.48899 7.83035 8.48955 8.02339 8.48919 8.21644C8.48885 8.39826 8.48955 8.58005 8.49104 8.76186C8.49141 8.82849 8.4914 8.89511 8.49098 8.96173C8.48744 9.5861 8.48744 9.5861 8.7423 9.84644C8.97298 10.0268 9.2143 10.0132 9.49536 9.97926Z" fill="#F0F0F0"/>
+                  </svg>
                 </button>
-                <button className="secondary-cta bg-white text-[#15171F] px-[22px] py-[12px] rounded-full inline-flex items-center justify-center gap-2 hover:bg-[#f5f5f5] transition-all hover:shadow-lg font-medium focus:outline-none focus:ring-2 focus:ring-[#00a1e0]/50 text-sm">
-                  <span>Explore Courses</span>
+                <button className="flex px-[22px] py-[12px] justify-center items-center gap-[12px] rounded-full bg-[#F0F0F0] hover:bg-white transition-colors">
+                  <span className="text-[#15171F] font-medium text-base leading-6">Explore Courses</span>
+                  <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.49536 9.97926C9.71395 9.87783 9.82108 9.74488 9.93834 9.53652C9.99839 9.36595 9.98907 9.18961 9.98886 9.01107C9.98899 8.97573 9.98912 8.94039 9.98926 8.90398C9.98964 8.78544 9.98971 8.66689 9.98978 8.54835C9.98998 8.4634 9.9902 8.37846 9.99044 8.29351C9.99102 8.06262 9.99131 7.83173 9.99151 7.60084C9.99164 7.45657 9.99182 7.31231 9.99202 7.16804C9.99262 6.71662 9.99305 6.26519 9.99322 5.81377C9.99342 5.29276 9.9942 4.77175 9.99548 4.25073C9.99644 3.84795 9.99689 3.44517 9.99694 3.04239C9.99699 2.80186 9.99725 2.56133 9.99804 2.32079C9.99877 2.09446 9.99887 1.86815 9.99848 1.64182C9.99845 1.55886 9.99864 1.47591 9.99908 1.39295C9.99964 1.27946 9.99938 1.166 9.99892 1.05251C9.99945 1.0036 9.99945 1.0036 10 0.953689C9.99766 0.706713 9.957 0.452911 9.7917 0.259596C9.54252 0.0371342 9.28086 0.00437164 8.95897 0.00601482C8.92354 0.00584602 8.88811 0.00567627 8.85161 0.00550175C8.73327 0.00504589 8.61494 0.00522041 8.4966 0.00539684C8.4116 0.0052042 8.3266 0.00497437 8.24159 0.00471115C8.01095 0.00411892 7.78031 0.00409222 7.54966 0.00420475C7.35702 0.00425148 7.16437 0.00403595 6.97173 0.00382423C6.51717 0.00333309 6.06262 0.00331306 5.60807 0.00358105C5.13938 0.00384808 4.6707 0.00330353 4.20202 0.00236034C3.7994 0.00158024 3.39678 0.00131512 2.99416 0.00145912C2.75379 0.00153923 2.51343 0.00142193 2.27306 0.000806808C2.04698 0.000249863 1.8209 0.000336647 1.59482 0.00091362C1.51196 0.00101852 1.4291 0.000897408 1.34625 0.00053215C1.23289 6.77109e-05 1.11957 0.0004282 1.00622 0.00098896C0.973651 0.00066185 0.941082 0.000335693 0.907526 0C0.660022 0.00256443 0.399802 0.0408411 0.211904 0.214662C0.0152582 0.445912 -0.00228734 0.603988 0.000203716 0.90062C0.0222775 1.09447 0.0918905 1.21714 0.237094 1.34578C0.412896 1.47124 0.534525 1.4954 0.749249 1.49626C0.777838 1.49655 0.806428 1.49685 0.835884 1.49715C0.931315 1.49798 1.02672 1.49786 1.12215 1.49775C1.19071 1.49815 1.25926 1.49861 1.32781 1.49912C1.51368 1.50034 1.69954 1.50075 1.88541 1.50101C2.07975 1.50143 2.27407 1.50259 2.4684 1.50367C2.83629 1.5056 3.20418 1.50687 3.57207 1.50789C3.99095 1.50909 4.40982 1.51103 4.82869 1.51304C5.69024 1.51715 6.5518 1.52032 7.41336 1.52288C7.37832 1.55769 7.34329 1.59251 7.30719 1.62838C6.45476 2.47543 5.60298 3.32312 4.75186 4.17149C4.34025 4.58174 3.92843 4.99178 3.51613 5.40133C3.15677 5.75829 2.7978 6.11564 2.43929 6.47346C2.24945 6.66291 2.05942 6.85217 1.86891 7.04096C1.68958 7.21869 1.51078 7.39693 1.33237 7.57558C1.26683 7.64103 1.2011 7.70628 1.13516 7.77133C1.04507 7.86027 0.955686 7.94988 0.866443 8.03967C0.840287 8.06517 0.814131 8.09067 0.787181 8.11694C0.589931 8.3177 0.48134 8.52001 0.444394 8.80461C0.471912 9.09064 0.595422 9.2634 0.812967 9.44797C1.02286 9.56198 1.25029 9.55808 1.47744 9.49224C1.68968 9.3644 1.85699 9.21385 2.03081 9.03837C2.05853 9.01073 2.08625 8.9831 2.11482 8.95463C2.20725 8.86239 2.29937 8.76984 2.39149 8.67728C2.45785 8.61093 2.52423 8.54461 2.59062 8.4783C2.77055 8.29849 2.95021 8.1184 3.12982 7.93827C3.31767 7.74997 3.50576 7.56193 3.69383 7.37385C4.04982 7.01778 4.40558 6.66149 4.76125 6.30511C5.16624 5.89935 5.57148 5.49384 5.97674 5.08835C6.81028 4.25434 7.6435 3.42 8.47651 2.58546C8.47653 2.621 8.47656 2.65654 8.47658 2.69315C8.47725 3.55822 8.47913 4.42327 8.48236 5.28832C8.4839 5.70666 8.48502 6.12499 8.48517 6.54333C8.48531 6.90799 8.48622 7.27264 8.48805 7.6373C8.48899 7.83035 8.48955 8.02339 8.48919 8.21644C8.48885 8.39826 8.48955 8.58005 8.49104 8.76186C8.49141 8.82849 8.4914 8.89511 8.49098 8.96173C8.48744 9.5861 8.48744 9.5861 8.7423 9.84644C8.97298 10.0268 9.2143 10.0132 9.49536 9.97926Z" fill="#00A1E0"/>
+                  </svg>
                 </button>
               </div>
             </div>
           </div>
 
-          {/* RIGHT COLUMN - Hero Background Image */}
-          <div className="hero-right w-full h-full" style={{backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F4180cf4ba9354e9e8b40c4dc6a5abfa9%2F3960a92c14444b9f8af3c93f8a78f540?format=webp&width=800')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat"}}></div>
-        </div>
+          {/* Stats Bar - Bottom Overlay */}
+          <div className="w-full h-[198px] relative">
+            <div className="absolute inset-0 bg-[rgba(21,23,31,0.3)]"></div>
+            <div className="relative z-10 w-full h-full px-[240px] py-[54px]">
+              <div className="flex items-center justify-between gap-[282px] w-[1440px] h-[90px] mx-auto">
+                {/* Statistics */}
+                <div className="flex items-center gap-[40px]">
+                  <div className="flex flex-col gap-[2px] w-[276px]">
+                    <div className="text-[#F0F0F0] text-[60px] font-normal leading-[64px] tracking-[-2px]">14+</div>
+                    <div className="text-[rgba(240,240,240,0.9)] text-base">Years of Experience</div>
+                  </div>
+                  <div className="flex flex-col gap-[2px] w-[276px]">
+                    <div className="text-[#F0F0F0] text-[60px] font-normal leading-[64px] tracking-[-2px]">80+</div>
+                    <div className="text-[rgba(240,240,240,0.9)] text-base">Certifications</div>
+                  </div>
+                  <div className="flex flex-col gap-[2px] w-[276px]">
+                    <div className="text-[#F0F0F0] text-[60px] font-normal leading-[64px] tracking-[-2px]">500+</div>
+                    <div className="text-[rgba(240,240,240,0.9)] text-base">Patients Treated</div>
+                  </div>
+                </div>
 
-        {/* STATS BAR - Overlay at Bottom */}
-        <div className="stats-bar absolute bottom-0 left-0 right-0 z-10 flex items-center justify-between" style={{background: "rgba(21,23,31,0.3)", padding: "54px 240px"}}>
-          <div className="stats-text text-white text-base">
-            14+ Years of Experience | 80+ Certifications | 500+ Patients Treated
-          </div>
-
-          <div className="social-icons flex gap-[20px]">
-            <a href="#" aria-label="LinkedIn" className="social-icon w-14 h-14 rounded-full bg-[rgba(240,240,240,0.1)] border border-[rgba(240,240,240,0.2)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
-              <svg width="20" height="20" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20.6666 10C22.7221 10 24.6933 10.7902 26.1467 12.1967C27.6001 13.6032 28.4166 15.5109 28.4166 17.5V26.25H23.25V17.5C23.25 16.837 22.9778 16.2011 22.4933 15.7322C22.0088 15.2634 21.3518 15 20.6666 15C19.9815 15 19.3244 15.2634 18.8399 15.7322C18.3555 16.2011 18.0833 16.837 18.0833 17.5V26.25H12.9166V17.5C12.9166 15.5109 13.7331 13.6032 15.1865 12.1967C16.64 10.7902 18.6112 10 20.6666 10Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M7.75004 11.25H2.58337V26.25H7.75004V11.25Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M5.16671 7.5C6.59344 7.5 7.75004 6.38071 7.75004 5C7.75004 3.61929 6.59344 2.5 5.16671 2.5C3.73997 2.5 2.58337 3.61929 2.58337 5C2.58337 6.38071 3.73997 7.5 5.16671 7.5Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </a>
-            <a href="#" aria-label="Instagram" className="social-icon w-14 h-14 rounded-full bg-[rgba(240,240,240,0.1)] border border-[rgba(240,240,240,0.2)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
-              <svg width="20" height="20" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M21.9584 2.5H9.04171C5.47487 2.5 2.58337 5.29822 2.58337 8.75V21.25C2.58337 24.7018 5.47487 27.5 9.04171 27.5H21.9584C25.5252 27.5 28.4167 24.7018 28.4167 21.25V8.75C28.4167 5.29822 25.5252 2.5 21.9584 2.5Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M20.6666 14.2119C20.826 15.2522 20.6424 16.3147 20.1419 17.2482C19.6414 18.1817 18.8494 18.9387 17.8787 19.4115C16.908 19.8843 15.8079 20.0489 14.735 19.8818C13.6621 19.7147 12.6709 19.2245 11.9024 18.4809C11.134 17.7372 10.6274 16.778 10.4548 15.7397C10.2821 14.7013 10.4522 13.6368 10.9408 12.6974C11.4294 11.758 12.2116 10.9916 13.1762 10.5072C14.1408 10.0228 15.2387 9.84514 16.3137 9.9994C17.4102 10.1568 18.4254 10.6512 19.2092 11.4098C19.9931 12.1683 20.504 13.1507 20.6666 14.2119Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M22.6041 8.125H22.6163" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </a>
-            <a href="#" aria-label="Facebook" className="social-icon w-14 h-14 rounded-full bg-[rgba(240,240,240,0.1)] border border-[rgba(240,240,240,0.2)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
-              <svg width="20" height="20" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M23.25 2.5H19.375C17.6621 2.5 16.0194 3.15848 14.8082 4.33058C13.5971 5.50268 12.9166 7.0924 12.9166 8.75V12.5H9.04163V17.5H12.9166V27.5H18.0833V17.5H21.9583L23.25 12.5H18.0833V8.75C18.0833 8.41848 18.2194 8.10054 18.4616 7.86612C18.7038 7.6317 19.0324 7.5 19.375 7.5H23.25V2.5Z" stroke="#F0F0F0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </a>
+                {/* Social Links */}
+                <div className="flex items-center gap-[26px]">
+                  <a href="#" className="flex w-[66px] h-[64px] justify-center items-center rounded-full border border-[rgba(240,240,240,0.1)] bg-[rgba(240,240,240,0.05)] hover:bg-[rgba(240,240,240,0.1)] transition-colors">
+                    <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20.6666 10C22.7221 10 24.6933 10.7902 26.1467 12.1967C27.6001 13.6032 28.4166 15.5109 28.4166 17.5V26.25H23.25V17.5C23.25 16.837 22.9778 16.2011 22.4933 15.7322C22.0088 15.2634 21.3518 15 20.6666 15C19.9815 15 19.3244 15.2634 18.8399 15.7322C18.3555 16.2011 18.0833 16.837 18.0833 17.5V26.25H12.9166V17.5C12.9166 15.5109 13.7331 13.6032 15.1865 12.1967C16.64 10.7902 18.6112 10 20.6666 10Z" stroke="#F0F0F0" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M7.75004 11.25H2.58337V26.25H7.75004V11.25Z" stroke="#F0F0F0" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M5.16671 7.5C6.59344 7.5 7.75004 6.38071 7.75004 5C7.75004 3.61929 6.59344 2.5 5.16671 2.5C3.73997 2.5 2.58337 3.61929 2.58337 5C2.58337 6.38071 3.73997 7.5 5.16671 7.5Z" stroke="#F0F0F0" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </a>
+                  <a href="#" className="flex w-[66px] h-[64px] justify-center items-center rounded-full border border-[rgba(240,240,240,0.1)] bg-[rgba(240,240,240,0.05)] hover:bg-[rgba(240,240,240,0.1)] transition-colors">
+                    <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21.9584 2.5H9.04171C5.47487 2.5 2.58337 5.29822 2.58337 8.75V21.25C2.58337 24.7018 5.47487 27.5 9.04171 27.5H21.9584C25.5252 27.5 28.4167 24.7018 28.4167 21.25V8.75C28.4167 5.29822 25.5252 2.5 21.9584 2.5Z" stroke="#F0F0F0" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M20.6666 14.2119C20.826 15.2522 20.6424 16.3147 20.1419 17.2482C19.6414 18.1817 18.8494 18.9387 17.8787 19.4115C16.908 19.8843 15.8079 20.0489 14.735 19.8818C13.6621 19.7147 12.6709 19.2245 11.9024 18.4809C11.134 17.7372 10.6274 16.778 10.4548 15.7397C10.2821 14.7013 10.4522 13.6368 10.9408 12.6974C11.4294 11.758 12.2116 10.9916 13.1762 10.5072C14.1408 10.0228 15.2387 9.84514 16.3137 9.9994C17.4102 10.1568 18.4254 10.6512 19.2092 11.4098C19.9931 12.1683 20.504 13.1507 20.6666 14.2119Z" stroke="#F0F0F0" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M22.6041 8.125H22.6163" stroke="#F0F0F0" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </a>
+                  <a href="#" className="flex w-[66px] h-[64px] justify-center items-center rounded-full border border-[rgba(240,240,240,0.1)] bg-[rgba(240,240,240,0.05)] hover:bg-[rgba(240,240,240,0.1)] transition-colors">
+                    <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M23.25 2.5H19.375C17.6621 2.5 16.0194 3.15848 14.8082 4.33058C13.5971 5.50268 12.9166 7.0924 12.9166 8.75V12.5H9.04163V17.5H12.9166V27.5H18.0833V17.5H21.9583L23.25 12.5H18.0833V8.75C18.0833 8.41848 18.2194 8.10054 18.4616 7.86612C18.7038 7.6317 19.0324 7.5 19.375 7.5H23.25V2.5Z" stroke="#F0F0F0" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
