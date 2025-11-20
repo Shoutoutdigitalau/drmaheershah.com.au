@@ -6,7 +6,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero-section relative min-h-screen overflow-hidden">
         {/* Header - Single horizontal row */}
-        <header className="hero-header absolute top-0 left-0 right-0 z-100 flex justify-between items-center px-[240px] py-[40px]">
+        <header className="hero-header absolute top-0 left-0 right-0 z-50 flex justify-between items-center px-[240px] py-[40px]">
           {/* Logo - Left */}
           <div className="logo-wrapper flex-shrink-0">
             <Image
