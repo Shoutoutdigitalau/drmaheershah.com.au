@@ -593,7 +593,7 @@ export default function Home() {
                         width={39}
                         height={39}
                       />
-                      <span className="text-[#15171F] text-sm">BDS, Advanced Biomimetic Certification</span>
+                      <span className="credentials-text">BDS, Advanced Biomimetic Certification</span>
                     </div>
                     <div className="flex items-center gap-4">
                       <Image
@@ -602,7 +602,7 @@ export default function Home() {
                         width={39}
                         height={39}
                       />
-                      <span className="text-[#15171F] text-sm">15+ Years in Practice</span>
+                      <span className="credentials-text">15+ Years in Practice</span>
                     </div>
                   </div>
                   <div className="space-y-4">
@@ -613,7 +613,7 @@ export default function Home() {
                         width={39}
                         height={39}
                       />
-                      <span className="text-[#15171F] text-sm">Digital Dentistry Specialist</span>
+                      <span className="credentials-text">Digital Dentistry Specialist</span>
                     </div>
                     <div className="flex items-center gap-4">
                       <Image
@@ -622,7 +622,7 @@ export default function Home() {
                         width={39}
                         height={39}
                       />
-                      <span className="text-[#15171F] text-sm">500+ Patients | 200+ Dentists Trained</span>
+                      <span className="credentials-text">500+ Patients | 200+ Dentists Trained</span>
                     </div>
                   </div>
                 </div>
