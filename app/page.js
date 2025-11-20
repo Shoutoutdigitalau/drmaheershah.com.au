@@ -34,7 +34,7 @@ export default function Home() {
         {/* Hero Content */}
         <div className="relative z-10 max-w-[1440px] mx-auto px-6 md:px-12 lg:px-[60px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center min-h-[600px] py-[40px] md:py-[80px] lg:py-[120px]">
-            <h1 className="text-white text-[42px] md:text-[56px] lg:text-[74px] font-medium leading-[1.08] mb-4">
+            <h1 className="text-white text-[42px] md:text-[56px] lg:text-[64px] font-medium leading-[1.1] mb-6">
               Where Traditional Dentistry Meets Digital Innovation
             </h1>
             <p className="text-[rgba(240,240,240,0.9)] text-lg md:text-xl max-w-[642px] mb-16">
