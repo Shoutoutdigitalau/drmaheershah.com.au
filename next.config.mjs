@@ -1,7 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
   reactCompiler: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'api.builder.io',
+        pathname: '/api/v1/image/**',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
