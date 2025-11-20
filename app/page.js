@@ -396,20 +396,20 @@ export default function Home() {
                 </div>
                 <div className="bg-white p-[39px] space-y-[22px]">
                   <div>
-                    <h4 className="text-[rgba(21,23,31,0.46)] text-lg font-medium mb-1">Problem</h4>
-                    <p className="text-[#15171F] text-sm">
+                    <h4 className="case-label mb-1">Problem</h4>
+                    <p className="case-body">
                       Sarah came to us with a severely damaged molar that required intervention. Traditional dentistry would have recommended a crown requiring significant tooth removal.
                     </p>
                   </div>
                   <div>
-                    <h4 className="text-[rgba(21,23,31,0.46)] text-lg font-medium mb-1">Solution</h4>
-                    <p className="text-[#15171F] text-sm">
+                    <h4 className="case-label mb-1">Solution</h4>
+                    <p className="case-body">
                       Using biomimetic bonding and digital design, we preserved 70% more of her natural tooth structure while creating a restoration that perfectly mimics natural enamel.
                     </p>
                   </div>
                   <div>
-                    <h4 className="text-[rgba(21,23,31,0.46)] text-lg font-medium mb-1">Result</h4>
-                    <p className="text-[#15171F] text-sm">
+                    <h4 className="case-label mb-1">Result</h4>
+                    <p className="case-body">
                       Completed in 2 visits, zero pain, natural appearance that's indistinguishable from her other teeth.
                     </p>
                   </div>
