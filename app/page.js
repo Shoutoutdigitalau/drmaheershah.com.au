@@ -1375,8 +1375,8 @@ export default function Home() {
       <section className="px-[240px] py-[160px] bg-[#F0F0F0]">
         <div className="max-w-[1440px] mx-auto">
           <div className="max-w-[813px] mx-auto text-center mb-[60px]">
-            <h2 className="text-[#15171F] text-[48px] font-medium leading-[56px] mb-4">What to Expect</h2>
-            <p className="text-[#15171F] text-lg">
+            <h2 className="section-title mb-4">What to Expect</h2>
+            <p className="section-description">
               Clear pathways for both patients and dentists. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.
             </p>
           </div>
