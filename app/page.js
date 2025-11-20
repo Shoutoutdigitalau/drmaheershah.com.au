@@ -1183,13 +1183,13 @@ export default function Home() {
                 <input type="tel" placeholder="Phone" className="w-full px-[22px] py-4 rounded-xl bg-[rgba(18,76,105,0.1)] border border-[rgba(255,255,255,0.3)] text-white placeholder:text-[rgba(255,255,255,0.7)]" />
                 <input type="text" placeholder="Preferred Date" className="w-full px-[22px] py-4 rounded-xl bg-[rgba(18,76,105,0.1)] border border-[rgba(255,255,255,0.3)] text-white placeholder:text-[rgba(255,255,255,0.7)]" />
               </div>
-              <button className="w-full px-[22px] py-3 rounded-full bg-white text-[#15171F] font-medium flex items-center justify-center gap-3 hover:bg-gray-100 transition-colors mb-5">
-                <span>Book My Consultation</span>
+              <button className="button w-full bg-white text-[#15171F] flex items-center justify-center hover:bg-gray-100 transition-colors mb-5">
+                <span className="button-text">Book My Consultation</span>
                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
                   <path d="M1 9L9 1M9 1H2M9 1V8" stroke="#00A1E0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </button>
-              <p className="text-white text-sm text-center italic">We'll call you within 24 hours to confirm.</p>
+              <p className="case-body text-center italic">We'll call you within 24 hours to confirm.</p>
             </div>
           </div>
 
