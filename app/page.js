@@ -290,29 +290,29 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-[503px_1fr] gap-[82px] items-start">
             <div className="relative">
               <div className="flex justify-end mb-[-40px] relative z-10">
-                <div className="w-[77px] h-[77px] rounded-full bg-[#124C69] flex items-center justify-center text-white text-[48px] font-medium">
+                <div className="w-[77px] h-[77px] rounded-full bg-[#124C69] flex items-center justify-center badge-number">
                   1
                 </div>
               </div>
 
               <div className="space-y-8">
                 <div className="rounded-[24px] p-[37px] bg-gradient-to-br from-[#00A1E0] via-[#0082b8] to-[#124C69]">
-                  <h3 className="text-white text-[28px] md:text-[32px] font-medium leading-[42px] mb-4">
+                  <h3 className="card-title text-white mb-4">
                     Nature-Inspired Restorations
                   </h3>
-                  <p className="text-white text-lg">
+                  <p className="card-description text-white">
                     We don't just fix teeth—we rebuild them using biomimetic principles that mimic natural tooth structure. This means stronger, longer-lasting restorations that preserve your natural tooth.
                   </p>
                 </div>
 
                 <div className="rounded-[24px] p-[30px] border border-[#124C69]">
-                  <h3 className="text-[#15171F] text-[28px] md:text-[32px] font-medium leading-[42px]">
+                  <h3 className="card-title text-[#15171F]">
                     Same-Day Precision Technology
                   </h3>
                 </div>
 
                 <div className="rounded-[24px] p-[30px] border border-[#124C69]">
-                  <h3 className="text-[#15171F] text-[28px] md:text-[32px] font-medium leading-[42px]">
+                  <h3 className="card-title text-[#15171F]">
                     Whole-Body Dental Health
                   </h3>
                 </div>
