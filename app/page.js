@@ -37,7 +37,7 @@ export default function Home() {
             <h1 className="text-white text-[42px] md:text-[56px] lg:text-[64px] font-medium leading-[1.1] mb-6">
               Where Traditional Dentistry Meets Digital Innovation
             </h1>
-            <p className="text-[rgba(240,240,240,0.9)] text-lg md:text-xl max-w-[642px] mb-16">
+            <p className="text-[rgba(240,240,240,0.9)] text-lg md:text-xl mb-10">
               Expert care for patients seeking the future of dentistry | Advanced training for practitioners mastering digital workflows.
             </p>
 
