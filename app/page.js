@@ -177,28 +177,28 @@ export default function Home() {
             
             <div className="p-[42px] flex-1 flex flex-col">
               <ul className="space-y-3 mb-10 flex-1">
-                <li className="flex items-center gap-3 text-white text-lg">
+                <li className="flex items-center gap-3 card-list-item">
                   <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 6.25967L3.74529 10.0043L12.646 0.00439453" stroke="currentColor"/>
                   </svg>
                   <span>Biomimetic restorations that mimic nature</span>
                 </li>
-                <li className="flex items-center gap-3 text-white text-lg">
+                <li className="flex items-center gap-3 card-list-item">
                   <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 6.25967L3.74529 10.0043L12.646 0.00439453" stroke="currentColor"/>
                   </svg>
                   <span>3D-printed precision in hours, not weeks</span>
                 </li>
-                <li className="flex items-center gap-3 text-white text-lg">
+                <li className="flex items-center gap-3 card-list-item">
                   <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 6.25967L3.74529 10.0043L12.646 0.00439453" stroke="currentColor"/>
                   </svg>
                   <span>Holistic approach to lasting oral health</span>
                 </li>
               </ul>
-              
-              <button className="bg-white text-[#15171F] px-[22px] py-3 rounded-full inline-flex items-center gap-3 hover:bg-[#e0e0e0] transition-colors font-medium focus:outline-none focus:ring-2 focus:ring-white/50">
-                <span>Explore Patient Services</span>
+
+              <button className="button bg-white text-[#15171F] hover:bg-[#e0e0e0] transition-colors focus:outline-none focus:ring-2 focus:ring-white/50">
+                <span className="button-text">Explore Patient Services</span>
                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
