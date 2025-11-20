@@ -741,11 +741,11 @@ export default function Home() {
               </div>
 
               <div className="bg-white rounded-[24px] pt-[100px] p-[42px]">
-                <h3 className="text-[#15171F] text-[28px] md:text-[32px] font-medium leading-[42px] mb-2">Full-Mouth Rehabilitation</h3>
-                <p className="text-[#15171F] text-lg mb-10">
+                <h3 className="service-title text-[#15171F] mb-2">Full-Mouth Rehabilitation</h3>
+                <p className="service-description text-[#15171F] mb-10">
                   Comprehensive smile makeovers combining multiple advanced techniques. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus.
                 </p>
-                <button className="inline-flex items-center gap-3 hover:gap-5 transition-all font-medium text-[#15171F] focus:outline-none focus:ring-2 focus:ring-[#00A1E0]/50 rounded">
+                <button className="button-text inline-flex items-center gap-3 hover:gap-5 transition-all text-[#15171F] focus:outline-none focus:ring-2 focus:ring-[#00A1E0]/50 rounded">
                   <span>Learn More</span>
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
