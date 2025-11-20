@@ -665,8 +665,8 @@ export default function Home() {
               </div>
 
               <div className="bg-gradient-to-br from-[#00A1E0] to-[#124C69] rounded-[24px] pt-[100px] p-[42px] text-white">
-                <h3 className="text-[28px] md:text-[32px] font-medium leading-[42px] mb-2">Biomimetic Dentistry</h3>
-                <p className="text-lg mb-10">
+                <h3 className="service-title text-white mb-2">Biomimetic Dentistry</h3>
+                <p className="service-description text-white mb-10">
                   Nature-inspired fillings and restorations that preserve your natural tooth. Lorem ipsum dolor sit amet consectetur. Et potenti tristique in feugiat ullamcorper aucibus.
                 </p>
                 <button className="inline-flex items-center gap-3 hover:gap-5 transition-all font-medium focus:outline-none focus:ring-2 focus:ring-white/50 rounded">
