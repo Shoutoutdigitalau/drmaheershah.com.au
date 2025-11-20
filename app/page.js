@@ -445,10 +445,10 @@ export default function Home() {
                     loading="lazy"
                   />
                   <div className="absolute inset-0 flex items-end justify-between p-[37px]">
-                    <span className="bg-[rgba(21,23,31,0.4)] text-white px-[14px] py-1 rounded-full text-xs font-medium">
+                    <span className="case-tag bg-[rgba(21,23,31,0.4)] px-[14px] py-1 rounded-full">
                       BEFORE
                     </span>
-                    <span className="bg-[rgba(21,23,31,0.4)] text-white px-[14px] py-1 rounded-full text-xs font-medium">
+                    <span className="case-tag bg-[rgba(21,23,31,0.4)] px-[14px] py-1 rounded-full">
                       AFTER
                     </span>
                   </div>
