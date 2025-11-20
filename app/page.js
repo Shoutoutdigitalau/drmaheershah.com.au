@@ -4,37 +4,31 @@ export default function Home() {
   return (
     <div className="bg-[#F0F0F0] overflow-hidden">
       {/* Hero Section */}
-      <section className="relative min-h-[600px] md:min-h-[800px] lg:min-h-[1179px]">
-        <Image
-          src="https://api.builder.io/api/v1/image/assets/d6129596c37d401a838963aa7ace07b6/9ba6b0994ccb19a86237729a0fd67dd50a744bdc?placeholderIfAbsent=true"
-          alt="Dental practice hero background"
-          fill
-          priority
-          className="object-cover"
-          sizes="100vw"
-        />
-        
-        <div className="relative z-10 pt-10 px-4 md:px-8 lg:px-16">
+      <section className="relative min-h-screen lg:min-h-[800px]">
+        {/* Blue/Teal Gradient Overlay Background */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#124C69] via-[#0a3147] to-[#00a1e0] opacity-85"></div>
+
+        {/* Navigation Header */}
+        <div className="relative z-20 pt-8 px-4 md:px-8 lg:px-16">
           <div className="max-w-[1440px] mx-auto">
-            {/* Header */}
-            <header className="flex flex-wrap items-center gap-6 lg:gap-8 mb-16 md:mb-32 lg:mb-[407px]">
+            <header className="flex flex-wrap items-center gap-4 md:gap-6 lg:gap-8">
               <Image
                 src="https://api.builder.io/api/v1/image/assets/d6129596c37d401a838963aa7ace07b6/be2ccac0d784e68629aded2f5b73b64495992645?placeholderIfAbsent=true"
                 alt="Dr Maheer Shah Logo"
                 width={297}
                 height={28}
-                className="w-[200px] md:w-[240px] lg:w-[297px] h-auto"
+                className="w-[160px] md:w-[220px] lg:w-[297px] h-auto"
               />
-              
-              <nav className="hidden lg:flex items-center gap-10 text-white font-medium flex-1">
-                <a href="#about" className="hover:text-[#00A1E0] transition-colors">About Us</a>
-                <a href="#services" className="hover:text-[#00A1E0] transition-colors">Patient Services</a>
-                <a href="#gallery" className="hover:text-[#00A1E0] transition-colors">Case Gallery</a>
-                <a href="#dentists" className="hover:text-[#00A1E0] transition-colors">For Dentists</a>
-                <a href="#contact" className="hover:text-[#00A1E0] transition-colors">Contact Us</a>
+
+              <nav className="hidden lg:flex items-center gap-8 text-white font-medium flex-1">
+                <a href="#about" className="hover:text-[#F0F0F0] transition-colors">About Us</a>
+                <a href="#services" className="hover:text-[#F0F0F0] transition-colors">Patient Services</a>
+                <a href="#gallery" className="hover:text-[#F0F0F0] transition-colors">Case Gallery</a>
+                <a href="#dentists" className="hover:text-[#F0F0F0] transition-colors">For Dentists</a>
+                <a href="#contact" className="hover:text-[#F0F0F0] transition-colors">Contact Us</a>
               </nav>
-              
-              <button className="ml-auto bg-[#00A1E0] text-white px-6 py-3 rounded-full flex items-center gap-3 hover:bg-[#0090c9] transition-colors font-medium">
+
+              <button className="ml-auto bg-[#00A1E0] text-white px-5 md:px-6 py-2.5 md:py-3 rounded-full flex items-center gap-2 md:gap-3 hover:bg-[#0090c9] transition-all hover:shadow-lg font-medium text-sm md:text-base">
                 <span>Book a Consultation</span>
                 <Image
                   src="https://api.builder.io/api/v1/image/assets/d6129596c37d401a838963aa7ace07b6/4e17fbf8a2c910253aef638cfe8fd2eadc07cf88?placeholderIfAbsent=true"
@@ -44,18 +38,23 @@ export default function Home() {
                 />
               </button>
             </header>
+          </div>
+        </div>
 
-            {/* Hero Content */}
-            <div className="max-w-[720px] px-4 md:px-0">
-              <h1 className="text-white text-3xl md:text-5xl lg:text-[74px] font-medium leading-tight lg:leading-[80px] mb-4">
+        {/* Two-Column Hero Content */}
+        <div className="relative z-10 flex items-center min-h-[calc(100vh-100px)] lg:min-h-[700px]">
+          <div className="max-w-[1440px] mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-0 items-center">
+            {/* Left Column: Text Content */}
+            <div className="px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-0 flex flex-col justify-center">
+              <h1 className="text-white text-4xl md:text-5xl lg:text-[74px] font-medium leading-tight md:leading-tight lg:leading-[80px] mb-4 md:mb-6">
                 Where Traditional Dentistry Meets Digital Innovation
               </h1>
-              <p className="text-white text-base md:text-lg lg:text-xl mb-8 md:mb-12 lg:mb-16">
+              <p className="text-[#F0F0F0] text-base md:text-lg lg:text-xl leading-relaxed mb-8 md:mb-10 lg:mb-16">
                 Expert care for patients seeking the future of dentistry | Advanced training for practitioners mastering digital workflows.
               </p>
-              
-              <div className="flex flex-col sm:flex-row gap-6">
-                <button className="bg-[#00A1E0] text-white px-6 py-3 rounded-full flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-colors font-medium">
+
+              <div className="flex flex-col sm:flex-row gap-4 md:gap-6">
+                <button className="bg-[#00A1E0] text-white px-6 py-3 rounded-full flex items-center justify-center gap-3 hover:bg-[#0090c9] transition-all hover:shadow-lg hover:scale-105 font-medium">
                   <span>Book a Consultation</span>
                   <Image
                     src="https://api.builder.io/api/v1/image/assets/d6129596c37d401a838963aa7ace07b6/4e17fbf8a2c910253aef638cfe8fd2eadc07cf88?placeholderIfAbsent=true"
@@ -64,7 +63,7 @@ export default function Home() {
                     height={10}
                   />
                 </button>
-                <button className="bg-white text-[#15171F] px-6 py-3 rounded-full flex items-center justify-center gap-3 hover:bg-[#e0e0e0] transition-colors font-medium">
+                <button className="bg-white text-[#15171F] px-6 py-3 rounded-full flex items-center justify-center gap-3 hover:bg-[#e0e0e0] transition-all hover:shadow-lg hover:scale-105 font-medium">
                   <span>Explore Courses</span>
                   <Image
                     src="https://api.builder.io/api/v1/image/assets/d6129596c37d401a838963aa7ace07b6/fbbabdf94359d1f570eb79126eb9ce3710859d4d?placeholderIfAbsent=true"
@@ -75,29 +74,41 @@ export default function Home() {
                 </button>
               </div>
             </div>
+
+            {/* Right Column: Dr. Maheer Shah Image */}
+            <div className="relative hidden lg:block h-full min-h-[700px]">
+              <Image
+                src="https://api.builder.io/api/v1/image/assets/d6129596c37d401a838963aa7ace07b6/db6e0ce3ade3643ed9e21a908986b7d925896017?placeholderIfAbsent=true"
+                alt="Dr Maheer Shah - Principal Dentist"
+                fill
+                priority
+                className="object-cover object-top"
+                sizes="(max-width: 1024px) 0px, 50vw"
+              />
+            </div>
           </div>
         </div>
 
-        {/* Stats Footer */}
-        <div className="absolute bottom-0 left-0 right-0 bg-[rgba(21,23,31,0.3)] backdrop-blur-sm z-10">
-          <div className="max-w-[1440px] mx-auto px-4 md:px-16 lg:px-60 py-8 md:py-14">
-            <div className="flex flex-wrap items-center justify-between gap-8">
-              <div className="flex flex-wrap gap-8 md:gap-10">
-                <div className="min-w-[200px]">
-                  <div className="text-white text-4xl md:text-5xl lg:text-[60px] leading-tight tracking-[-2px]">14+</div>
-                  <div className="text-[#F0F0F0]">Years of Experience</div>
+        {/* Stats Footer Bar */}
+        <div className="relative z-10 bg-[rgba(21,23,31,0.4)] backdrop-blur-sm border-t border-[rgba(240,240,240,0.1)]">
+          <div className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-16 py-8 md:py-10">
+            <div className="flex flex-wrap items-center justify-between gap-6 md:gap-8">
+              <div className="flex flex-wrap gap-8 md:gap-12">
+                <div>
+                  <div className="text-white text-3xl md:text-4xl lg:text-[60px] leading-tight tracking-[-2px] font-medium">14+</div>
+                  <div className="text-[#F0F0F0] text-sm md:text-base">Years of Experience</div>
                 </div>
-                <div className="min-w-[200px]">
-                  <div className="text-white text-4xl md:text-5xl lg:text-[60px] leading-tight tracking-[-2px]">80+</div>
-                  <div className="text-[#F0F0F0]">Certifications</div>
+                <div>
+                  <div className="text-white text-3xl md:text-4xl lg:text-[60px] leading-tight tracking-[-2px] font-medium">80+</div>
+                  <div className="text-[#F0F0F0] text-sm md:text-base">Certifications</div>
                 </div>
-                <div className="min-w-[200px]">
-                  <div className="text-white text-4xl md:text-5xl lg:text-[60px] leading-tight tracking-[-2px]">500+</div>
-                  <div className="text-[#F0F0F0]">Patients Treated</div>
+                <div>
+                  <div className="text-white text-3xl md:text-4xl lg:text-[60px] leading-tight tracking-[-2px] font-medium">500+</div>
+                  <div className="text-[#F0F0F0] text-sm md:text-base">Patients Treated</div>
                 </div>
               </div>
-              
-              <div className="flex gap-6">
+
+              <div className="flex gap-4 md:gap-6">
                 <a href="#" className="w-16 h-16 rounded-full bg-[rgba(240,240,240,0.05)] border border-[rgba(240,240,240,0.1)] flex items-center justify-center hover:bg-[rgba(240,240,240,0.15)] transition-colors">
                   <Image
                     src="https://api.builder.io/api/v1/image/assets/d6129596c37d401a838963aa7ace07b6/a50611500a54e9dfd5080fc98e5819cceb344080?placeholderIfAbsent=true"
