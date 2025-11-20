@@ -1296,11 +1296,11 @@ export default function Home() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-[#15171F] text-xl font-medium">Michael R.</h4>
-                  <p className="text-[#15171F] text-sm">Biomimetic Restoration Patient</p>
+                  <h4 className="card-title text-[#15171F]">Michael R.</h4>
+                  <p className="credentials-text">Biomimetic Restoration Patient</p>
                 </div>
               </div>
-              <blockquote className="text-[#15171F] text-[32px] font-normal leading-[46px] mb-8">
+              <blockquote className="about-quote mb-8">
                 "The biomimetic approach saved my tooth that other dentists wanted to extract. Dr. Maheer's expertise in digital dentistry is unmatched!"
               </blockquote>
               <div className="flex items-center gap-8">
