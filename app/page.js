@@ -55,6 +55,17 @@ export default function Home() {
                 </svg>
               </button>
             </div>
+
+            <div className="relative hidden lg:block">
+              <Image
+                src="https://cdn.builder.io/api/v1/image/assets%2F4180cf4ba9354e9e8b40c4dc6a5abfa9%2Ff7dcb10012e440ec94a3221e21317ba7?format=webp&width=800"
+                alt="Dr Maheer Shah - Digital Dentistry Expert"
+                width={500}
+                height={600}
+                className="w-full h-auto object-contain"
+                priority
+              />
+            </div>
           </div>
         </div>
 
