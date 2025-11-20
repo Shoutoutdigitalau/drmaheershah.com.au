@@ -85,7 +85,7 @@ export default function Home() {
           <div className="w-full h-[198px] relative">
             <div className="absolute inset-0 bg-[rgba(21,23,31,0.3)]"></div>
             <div className="relative z-10 w-full h-full px-[240px] py-[54px]">
-              <div className="flex items-center justify-between gap-[282px] w-[1440px] h-[90px] mx-auto">
+              <div className="flex items-center justify-between w-[1440px] mx-auto">
                 {/* Statistics */}
                 <div className="flex items-center gap-[40px]">
                   <div className="flex flex-col gap-[2px] w-[276px]">
