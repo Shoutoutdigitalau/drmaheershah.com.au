@@ -794,8 +794,8 @@ export default function Home() {
           </div>
 
           <div className="text-center">
-            <button className="bg-[#00A1E0] text-white px-[22px] py-3 rounded-full inline-flex items-center gap-3 hover:bg-[#0090c9] transition-all hover:shadow-lg font-medium focus:outline-none focus:ring-2 focus:ring-[#00A1E0]/50">
-              <span>View All Patient Services</span>
+            <button className="button bg-[#00A1E0] text-white hover:bg-[#0090c9] transition-all hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#00A1E0]/50">
+              <span className="button-text">View All Patient Services</span>
               <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 9L9 1M9 1H2M9 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
