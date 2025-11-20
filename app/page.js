@@ -279,10 +279,10 @@ export default function Home() {
       <section className="py-[80px] md:py-[120px] lg:py-[160px] px-6">
         <div className="max-w-[1440px] mx-auto">
           <div className="max-w-[876px] ml-auto text-right mb-[60px]">
-            <h2 className="text-[#15171F] text-[36px] md:text-[42px] lg:text-[48px] font-medium leading-[56px] mb-4">
+            <h2 className="section-title mb-4">
               The Three Pillars of Modern Dentistry
             </h2>
-            <p className="text-[#15171F] text-lg max-w-[813px] ml-auto">
+            <p className="section-description max-w-[813px] ml-auto">
               Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus. Velit nullam sagittis ac volutpat faucibus et morbi.
             </p>
           </div>
