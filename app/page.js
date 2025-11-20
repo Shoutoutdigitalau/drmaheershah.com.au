@@ -897,7 +897,7 @@ export default function Home() {
                     <div className="text-white text-[48px] font-semibold leading-[56px]">$699</div>
                   </div>
                   <div className="absolute bottom-0 left-[37px] right-[37px] mb-[-30px]">
-                    <h3 className="text-white text-[32px] font-medium leading-[42px] mb-1">3D Printing Mastery</h3>
+                    <h3 className="course-title text-white mb-1">3D Printing Mastery</h3>
                     <div className="flex items-center gap-2 mb-4">
                       <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9 0C4.032 0 0 4.032 0 9s4.032 9 9 9 9-4.032 9-9-4.032-9-9-9zm0 16.2c-3.978 0-7.2-3.222-7.2-7.2S5.022 1.8 9 1.8s7.2 3.222 7.2 7.2-3.222 7.2-7.2 7.2z" fill="#F0F0F0"/>
