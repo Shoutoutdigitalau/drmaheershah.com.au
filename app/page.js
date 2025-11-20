@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="bg-[#F0F0F0] overflow-hidden">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-[#1a4f6b] to-[#124C69]">
+      <section className="relative min-h-screen grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
         {/* Navigation Header */}
         <div className="relative z-20 pt-10">
           <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-[60px]">
