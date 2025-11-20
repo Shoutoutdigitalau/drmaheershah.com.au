@@ -226,16 +226,16 @@ export default function Home() {
                       height={114}
                     />
                   </div>
-                  <span className="bg-[rgba(240,240,240,0.1)] px-4 py-2 rounded-full text-sm font-medium text-white">
+                  <span className="card-tag bg-[rgba(240,240,240,0.1)] px-4 py-2 rounded-full">
                     FOR DENTISTS
                   </span>
                 </div>
-                
+
                 <div>
-                  <h3 className="text-white text-[32px] md:text-[36px] font-medium leading-[46px] mb-4">
+                  <h3 className="card-headline mb-4">
                     Master the Digital<br />Dentistry Revolution
                   </h3>
-                  <p className="text-white text-lg max-w-[504px]">
+                  <p className="card-body max-w-[504px]">
                     Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.
                   </p>
                 </div>
