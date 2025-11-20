@@ -159,16 +159,16 @@ export default function Home() {
                       <path d="M46.6669 51C47.0719 51.0754 47.0719 51.0754 47.4051 51.4527C47.513 51.6203 47.621 51.7879 47.7322 51.9606C49.2714 54.2487 51.0915 55.5135 53.6564 56.2257C56.155 56.6676 58.7035 56.198 60.7959 54.6565C61.9801 53.7063 62.8727 52.7321 63.6347 51.3822C63.9159 51.0754 63.9159 51.0754 64.398 51.0201C64.8346 51.0754 64.8346 51.0754 64.9877 51.2364C65.0879 52.3802 64.5596 52.95 63.9159 53.8115C63.8367 53.9233 63.7576 54.0352 63.676 54.1504C62.0344 56.3168 59.4732 57.4171 56.9582 57.9458C53.6512 58.2507 50.6989 57.2666 48.1246 55.0689C47.2369 54.2131 46.2975 53.1712 46.0185 51.9204C46.0124 51.7478 46.0063 51.5752 46 51.3973C46.3063 51.0754 46.3063 51.0754 46.6669 51Z" fill="white"/>
                     </svg>
                   </div>
-                  <span className="bg-[rgba(21,23,31,0.4)] px-4 py-2 rounded-full text-sm font-medium text-white">
+                  <span className="card-tag bg-[rgba(21,23,31,0.4)] px-4 py-2 rounded-full">
                     FOR PATIENTS
                   </span>
                 </div>
-                
+
                 <div>
-                  <h3 className="text-white text-[32px] md:text-[36px] font-medium leading-[46px] mb-4">
+                  <h3 className="card-headline mb-4">
                     Experience the Future<br />of Dental Care
                   </h3>
-                  <p className="text-white text-lg max-w-[504px]">
+                  <p className="card-body max-w-[504px]">
                     Lorem ipsum dolor sit amet consectetur. Et potenti tristique in montes nascetur feugiat ullamcorper cursus faucibus.
                   </p>
                 </div>
