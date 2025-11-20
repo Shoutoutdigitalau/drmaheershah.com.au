@@ -4,10 +4,7 @@ export default function Home() {
   return (
     <div className="bg-[#F0F0F0] overflow-hidden">
       {/* Hero Section - Full Width with Background */}
-      <section className="hero-section relative w-full min-h-screen overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0 w-full h-full" style={{backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F4180cf4ba9354e9e8b40c4dc6a5abfa9%2Fe2a8ef3ba9d84f4a9f6f02e1158df959')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}></div>
-
+      <section className="hero-section relative w-full min-h-screen overflow-hidden" style={{backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F4180cf4ba9354e9e8b40c4dc6a5abfa9%2Fe2a8ef3ba9d84f4a9f6f02e1158df959')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed'}}>
         {/* Gradient Overlay */}
         <div className="absolute inset-0 w-full h-full" style={{background: "linear-gradient(64deg, rgba(18, 76, 105, 0.91) 8.04%, rgba(18, 76, 105, 0.94) 28.29%, rgba(18, 76, 105, 0.74) 43.27%, rgba(33, 116, 148, 0.28) 72.88%)"}}></div>
 
